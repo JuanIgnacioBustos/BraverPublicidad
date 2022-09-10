@@ -1,0 +1,1380 @@
+/* index */
+
+*{margin: 0%;
+    padding:0%;
+}
+
+html{
+        font-size: 62,5%;
+}
+
+body{
+        font-family: 'Oswald', sans-serif;
+        background-color:#042f66;
+}
+
+p{ 
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px; 
+        color:#c1cad0;
+}
+
+
+h1{
+        color:#c1cad0;
+        text-align:center;
+        font-weight: bold;
+        font-size: 100px;
+        font-family: 'Oswald', sans-serif;
+}
+
+a{
+        text-decoration: none;
+        color:#c1cad0;
+}
+
+li{
+        color:#c1cad0;
+}
+
+ul{
+    color:#c1cad0;
+    list-style-type: none;
+}
+
+header{
+        position:sticky;
+        top: 0;
+}
+
+.instagramRSS img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;    
+}
+
+.facebookRss img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.whatsappRss img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.contactoRss img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.cotizacionIndex img{
+    width: 500px;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.menuPrincipal ul li{
+    display: inline-block;
+    padding: 20px 20px;;
+}
+
+.menuPrincipal ul{
+    list-style-type: none;
+}
+
+.menuPrincipal{
+    margin: auto;
+    background-color: #042f66;
+}
+
+.logoImagen{
+    margin: auto;
+}
+
+.parallax2 {    background-image: url("/multimedia/parallaxIndex.jpg");
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: bottom 5px;
+}
+
+.textoUno {
+    text-align: center;
+    color:#c1cad0;
+    padding: 40px;
+    font-size: 75px;
+    word-spacing: 5px;
+}
+
+.textoDos {
+    text-align: center;
+    color:#c1cad0 ;
+    padding: 40px;
+    font-size: 75px;
+}
+
+.textoSeis {
+    color:#c1cad0 ;
+    text-align: center;
+}
+
+.textoSiete {
+    color:#c1cad0 ;
+    text-align: center;
+}
+
+.textoOcho {
+    color:#DEE2E6 ;
+    text-align: center;
+}
+
+.contenedorIndex{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(7 1fr);
+    grid-template-areas:
+	"head head head"
+	"header header header"
+	"main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "footer footer footer"
+    ;
+}
+
+head {
+    grid-area: head;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.menuPrincipal {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.footerIndex {
+	display: flex;
+	flex-direction:row;
+	justify-content:end;
+}
+
+.footerIndex li{
+    padding: 15px;
+    margin: 15px;
+    list-style-type: none;
+}
+
+/* cierre index */
+
+/* vista tablet index */
+
+@media only screen and (min-width: 768px) and (max-width:1023px){
+
+body {
+        background-color: #042f66;
+    }
+
+.contenedorIndex{
+    display: grid;
+    grid-template-areas:
+    "head head head"
+	"header header header"
+	"main main main"
+    "footer footer footer";
+    grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto auto auto auto;
+}
+
+head {
+    grid-area: head;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+} */
+
+footer {
+    grid-area: footer;
+}
+
+.logoImagen img{
+    width: 768px;
+}
+
+.videoReferencial {
+    display: flex;
+    justify-content: center;
+}
+
+.parallax2 {
+    display: none
+} 
+
+.instagramRSS img{
+    display: none;
+}
+
+.facebookRss img{
+display: none;
+}
+
+.whatsappRss img{
+    display: none;
+}
+
+.contactoRss img{
+    display: none;
+}
+
+}
+/* cierre vista tablet index */ 
+
+/* vista movil index */
+
+@media only screen and (min-width:0px) and (max-width:500px){
+
+
+h1 {
+    font-size: 18px;
+}
+
+p{
+    font-size: 12px;
+}
+
+.textoUno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logoImagen img{
+    width: 500px;
+}
+
+.parallax2 {
+    display: none;
+}
+
+.videoReferencial {
+    display: none;
+}
+
+.menuPrincipal {
+	display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+.cotizacionIndex img {
+    width: 250px;
+}
+
+.footerIndex {
+    display: flex; 
+    justify-content: space-around;
+}
+
+.footerIndex img {
+    display: flex;
+    justify-content: space-around;
+    width: 20px;
+}
+
+.instagramRSS img{
+    display: none;
+}
+
+.facebookRss img{
+display: none;
+}
+
+.whatsappRss img{
+    display: none;
+}
+
+.contactoRss img{
+    display: none;
+}
+
+}
+/* cierre de vista movil */
+
+/* Servicios */
+
+.contenedorServicios {
+    display: grid;
+    grid-template-areas:
+    "head head head"
+	"header header header"
+	"main main main"
+    "main main main"
+    "main main main"
+    "footer footer footer";
+    grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr auto auto auto auto;
+}
+
+.headServicios {
+    grid-area: head;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+.footerServicios {
+    grid-area: footer;
+}
+
+.sectionUno {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.sectionDos{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.sectionTres {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.textoTres {
+    display: flex;
+    flex-direction: column;  
+    color: #c1cad0 ;
+    text-align: left;
+    padding: 75px;
+}
+
+.campañaUno {
+    display: flex;
+    justify-content: right;
+}
+.textoCuatro {
+    display: flex;
+    flex-direction: column;
+    color:#c1cad0 ;
+    text-align: center;
+    font-size: 60px;
+    padding: 50px;
+}
+
+.campañaTres {
+    display: flex;
+    justify-content: right;
+    padding: 15px;
+}
+
+.textoCinco {
+    display: flex;
+    flex-direction: column;
+    color: #c1cad0 ;
+    text-align: left;
+    padding: 95px;
+}
+
+.parallax3 {    background-image: url("/multimedia/innovacion.jpg");
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: bottom 5px;
+}
+
+.footerServicios {
+	display: flex;
+	flex-direction:row;
+	justify-content:end;
+}
+
+.footerServicios li{
+    padding: 30px;
+    list-style-type: none;
+}
+
+.instagramRSS img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;    
+}
+
+.facebookRss img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.whatsappRss img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.contactoRss img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* cierre servicios */
+
+/* vista tablet servicios */
+
+@media only screen and (min-width: 768px) and (max-width:1023px){
+
+body {
+    background-color: #042f66;
+}
+
+.contenedorServicios {
+    display: grid;
+    grid-area: 
+    "head head"
+    "header header"
+    "main main"
+    "main main"
+    "main main"
+    "footer footer";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr auto auto auto auto;
+}
+
+.headServicios {
+    grid-area: head;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+p {
+    font-size: 18px;
+}
+
+.footerServicios {
+    grid-area: footer;
+}
+
+.parallax3 {
+    display: none;
+}
+
+.textoTres {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    color: #c1cad0 ;
+    margin-left: 60px;
+}
+
+.textoCuatro {
+    display: flex;
+    flex-wrap: wrap;
+    color:#c1cad0 ;
+    text-align: center;
+    padding: 30px;
+}    
+.textoCinco {
+    display: flex;
+    flex-wrap: wrap;
+    color: #c1cad0 ;
+    text-align: left;
+    margin-left: 60px;
+}
+
+.campañaUno iframe{
+    display: none;
+}
+
+.campañaDos img{
+    display: flex;
+    width: 400px;
+    height: 400px;
+}   
+
+.campañaTres iframe{
+    width: 350px;
+    padding: 90px;
+}
+
+.logoImagen img{
+    width: 900px;
+}
+
+.instagramRSS img{
+    display: none;
+}
+
+.facebookRss img{
+display: none;
+}
+
+.whatsappRss img{
+    display: none;
+}
+
+.contactoRss img{
+    display: none;
+}
+
+}
+/* fin vista tablet servicios */
+
+/* vista movil servicios */
+
+@media only screen and (min-width:0px) and (max-width:500px){
+
+body{
+    background-color: #042f66;
+}
+
+.contenedorServicios {
+    display: grid;
+    grid-template-areas: 
+    "head"
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr auto auto;
+}
+
+.headServicios {
+    grid-area: head;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+.footerServicios {
+    grid-area: footer;
+}
+
+p {
+    font-size: 12px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+}
+
+.footerServicios {
+    display: flex; 
+    justify-content: space-around;
+}
+
+.footerServicios img {
+    display: flex;
+    justify-content: space-around;
+    width: 20px;
+}
+
+.logoImagen img{
+    width: 500px;
+}
+
+.menuPrincipal {
+	display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+.parallax3 {
+    display: none;
+}
+
+.textoTres {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.textoCuatro {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 30px;
+}    
+.textoCinco {
+    display: none;
+}
+
+.campañaUno iframe{
+    display: none;
+}
+
+.campañaDos img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}   
+
+.campañaTres iframe{
+    width: 250px;
+    height: 250px;
+}
+
+.instagramRSS img{
+    display: none;
+}
+
+.facebookRss img{
+display: none;
+}
+
+.whatsappRss img{
+    display: none;
+}
+
+.contactoRss img{
+    display: none;
+}
+
+}/* cierre vista movil servicios */
+
+/* inicio Productos */
+
+.contenedorProductos {
+    display: grid;
+    grid-template-areas:
+    "head head head"
+	"header header header"
+	"main main main"
+    "main main main"
+    "main main main"
+    "footer footer footer";
+    grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr auto auto auto auto;
+}
+
+.headProductos {
+    grid-area: head;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+.footerProductos {
+    grid-area: footer;
+}
+
+.seccionUno {    
+display: flex;
+justify-content: center;
+padding: 20px;
+}
+
+.seccionDos {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.seccionTres {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.parallax4 {    background-image: url("/multimedia/trayectoria.jpg");
+    height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: bottom 5px;
+}
+
+.footerProductos {
+	display: flex;
+	flex-direction:row;
+	justify-content:end;
+}
+
+.footerProductos li{
+    padding: 30px;
+    list-style-type: none;
+}
+
+.instagramRSS img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;    
+}
+
+.facebookRss img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.whatsappRss img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.contactoRss img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.textoSeis {
+    display: flex;
+    flex-direction: column;
+    color:#c1cad0 ;
+    text-align: center;
+    font-size: 60px;
+    padding: 50px;
+}
+
+.textoSiete {
+    display: flex;
+    flex-direction: column;
+    color:#c1cad0 ;
+    text-align: left;
+    font-size: 60px;
+    padding: 50px;
+}
+
+.textoOcho {
+    display: flex;
+    flex-direction: column;
+    color:#c1cad0 ;
+    text-align: center;
+    font-size: 60px;
+    padding: 50px;
+}
+
+/* cierre productos */
+/* inicio vista tablet productos */
+
+@media only screen and (min-width: 768px) and (max-width:1023px){
+
+body {
+    background-color: #042f66;
+}
+
+.contenedorProductos {
+    display: grid;
+    grid-area: 
+    "head head"
+    "header header"
+    "main main"
+    "main main"
+    "main main"
+    "footer footer";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr auto auto auto auto;
+}
+
+.headProductos {
+    grid-area: head;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+p {
+    font-size: 18px;
+}
+
+.footerProductos {
+    grid-area: footer;
+}
+
+.parallax4 {
+    display: none;
+}
+
+.textoSeis {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    color: #c1cad0 ;
+    margin-left: 60px;
+}
+
+.textoSiete {
+    display: flex;
+    flex-wrap: wrap;
+    color:#c1cad0 ;
+    text-align: center;
+    padding: 30px;
+}   
+
+.textoOcho {
+    display: flex;
+    flex-wrap: wrap;
+    color: #c1cad0 ;
+    text-align: left;
+    margin-left: 60px;
+}
+
+.logoImagen img{
+    width: 900px;
+}
+
+.carteleria img{
+    display: flex;
+    width: 400px;
+    height: 400px;
+}   
+
+.carapantallas img{
+    display: flex;
+    width: 400px;
+    height: 400px;
+}
+
+.refugios img {
+    display: flex;
+    width: 400px;
+    height: 400px;
+}
+
+.instagramRSS img{
+    display: none;
+}
+
+.facebookRss img{
+display: none;
+}
+
+.whatsappRss img{
+    display: none;
+}
+
+.contactoRss img{
+    display: none;
+}
+
+}/* cierre vista tablet productos */
+
+/* inicio vista movil productos */
+@media only screen and (min-width:0px) and (max-width:500px){
+
+body{
+    background-color: #042f66;
+}
+
+.contenedorServicios {
+    display: grid;
+    grid-template-areas: 
+    "head"
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr auto auto auto;
+}
+
+.headProductos {
+    grid-area: head;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+.footerProductos {
+    grid-area: footer;
+}
+
+p {
+    font-size: 12px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+}
+
+.footerProductos {
+    display: flex; 
+    justify-content: space-around;
+}
+
+.footerProductos img {
+    display: flex;
+    justify-content: space-around;
+    width: 20px;
+}
+
+.logoImagen img{
+    width: 500px;
+}
+
+.menuPrincipal {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+.parallax4 {
+    display: none;
+}
+
+.textoSeis{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.textoSiete{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.textoOcho{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.carteleria img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+
+.carapantallas img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+
+.refugios img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+
+.instagramRSS img{
+    display: none;
+}
+
+.facebookRss img{
+display: none;
+}
+
+.whatsappRss img{
+    display: none;
+}
+
+.contactoRss img{
+    display: none;
+}
+
+}/* cierre vista movil productos */
+
+/* inicio contacto */
+
+.tituloContacto {
+    display: flex;
+    justify-content: center;
+}
+
+.formularioContacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 50px;
+}
+
+.parallax5 {    background-image: url("../multimedia/compromiso.jpg");
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: bottom 5px;
+}
+
+.footerContacto {
+	display: flex;
+	flex-direction:row;
+	justify-content:end;
+    margin-block-end: auto;
+}
+
+.footerContacto li{
+    padding: 30px;
+    list-style-type: none;
+}
+
+.instagramRSS img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;    
+}
+
+.facebookRss img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.whatsappRss img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.contactoRss img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* inicio tablet contacto */
+
+@media only screen and (min-width: 768px) and (max-width:1023px){
+
+body {
+    background-color: #042f66;
+}
+
+.parallax5 {
+    display: none;
+}
+
+p {
+    font-size: 18px;
+}
+
+.logoImagen img{
+    width: 900px;
+}
+
+.footerContacto {
+	display: flex;
+	flex-direction:row;
+	justify-content:end;
+}
+
+.footerContacto li{
+    padding: 30px;
+    list-style-type: none;
+}
+
+.instagramRSS img{
+    display: none;
+}
+
+.facebookRss img{
+display: none;
+}
+
+.whatsappRss img{
+    display: none;
+}
+
+.contactoRss img{
+    display: none;
+}
+
+}/* cierre vista tablet */
+
+/* inicio movil contacto */
+
+@media only screen and (min-width:0px) and (max-width:500px){
+
+    /* index */
+
+p{
+    font-size: 12px;
+}
+
+.tituloContacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logoImagen img{
+    width: 500px;
+}
+
+.parallax5 {
+    display: none;
+}
+
+.menuPrincipal {
+	display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+.footerContacto {
+    display: flex; 
+    justify-content: space-around;
+}
+
+.instagramRSS img{
+    display: none;
+}
+
+.facebookRss img{
+display: none;
+}
+
+.whatsappRss img{
+    display: none;
+}
+
+.contactoRss img{
+    display: none;
+}
+
+}/* cierre vista movil contacto */
+
+
+/* inicio ubicacion */
+
+.tituloUbicacion {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.parallax6 {    background-image: url("/multimedia/fondoindex.jpg");
+    height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: bottom 5px;
+}
+
+.footerUbicacion {
+	display: flex;
+	flex-direction:row;
+	justify-content:end;
+}
+
+.footerUbicacion li{
+    padding: 30px;
+    list-style-type: none;
+}
+
+.instagramRSS img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;    
+}
+
+.facebookRss img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.whatsappRss img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.contactoRss img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* vista tablet ubicacion */
+
+@media only screen and (min-width: 768px) and (max-width:1023px){
+
+body {
+    background-color: #042f66;
+}
+
+.parallax6 {
+    display: none;
+}
+
+p {
+    font-size: 18px;
+}
+
+.logoImagen img{
+    width: 900px;
+}
+
+.tituloUbicacion {
+    display: flex;
+    flex-wrap: wrap;
+    color:#c1cad0 ;
+    text-align: center;
+}    
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    padding: 150px;
+}
+
+.footerUbicacion {
+    display: flex;
+    justify-content: end;
+}
+
+.instagramRSS img{
+    display: none;
+}
+
+.facebookRss img{
+display: none;
+}
+
+.whatsappRss img{
+    display: none;
+}
+
+.contactoRss img{
+    display: none;
+}
+
+}/* cierre vista tablet ubicacion */
+
+/* inicio movil ubicacion */
+
+@media only screen and (min-width:0px) and (max-width:500px){
+
+    /* index */
+
+p{
+    font-size: 12px;
+}
+
+.tituloUbicacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    padding: 150px;
+}
+
+.logoImagen img{
+    width: 500px;
+}
+
+.parallax6 {
+    display: none;
+}
+
+.menuPrincipal {
+	display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+.footerUbicacion {
+    display: flex; 
+    justify-content: space-around;
+}
+
+.footerUbicacion img {
+    display: flex;
+    justify-content: space-around;
+    width: 20px;
+}
+
+.instagramRSS img{
+    display: none;
+}
+
+.facebookRss img{
+display: none;
+}
+
+.whatsappRss img{
+    display: none;
+}
+
+.contactoRss img{
+    display: none;
+}
+
+}
+/* cierre vista movil ubicacion */
