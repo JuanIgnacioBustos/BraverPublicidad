@@ -96,7 +96,7 @@ header{
     margin: auto;
 }
 
-.parallax2 {    background-image: url("/multimedia/parallaxIndex.jpg");
+.parallax2 {    background-image: url("../multimedia/parallaxIndex.JPG");
     height: 250px;
     background-attachment: fixed;
     background-position: center;
@@ -408,8 +408,8 @@ main {
     padding: 95px;
 }
 
-.parallax3 {    background-image: url("/multimedia/innovacion.jpg");
-    height: 400px;
+.parallax3 {    background-image: url("../multimedia/innovacion.JPG");
+    height: 250px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -729,8 +729,8 @@ padding: 20px;
     padding: 20px;
 }
 
-.parallax4 {    background-image: url("/multimedia/trayectoria.jpg");
-    height: 200px;
+.parallax4 {    background-image: url("../multimedia/trayectoria.JPG");
+    height: 250px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1211,8 +1211,8 @@ display: none;
     padding: 20px;
 }
 
-.parallax6 {    background-image: url("/multimedia/fondoindex.jpg");
-    height: 200px;
+.parallax6 {    background-image: url("../multimedia/fondoindex.JPG");
+    height: 250px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
