@@ -184,6 +184,17 @@ footer {
     list-style-type: none;
 }
 
+/* gradiente */
+.menuPrincipal{
+    background: rgb(4,47,102);
+    background: linear-gradient(0deg, rgba(4,47,102,0.9444152661064426) 0%, rgba(26,94,227,1) 30%);
+}
+
+.footerIndex {
+    background: rgb(4,47,102);
+    background: linear-gradient(180deg, rgba(4,47,102,0.9444152661064426) 0%, rgba(26,94,227,1) 30%);
+}
+
 /* cierre index */
 
 /* vista tablet index */
@@ -333,10 +344,9 @@ display: none;
 	"header header header"
 	"main main main"
     "main main main"
-    "main main main"
     "footer footer footer";
     grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr auto auto auto auto;
+	grid-template-rows: 1fr auto auto auto auto;
 }
 
 .headServicios {
@@ -409,7 +419,7 @@ main {
 }
 
 .parallax3 {    background-image: url("../multimedia/innovacion.JPG");
-    height: 250px;
+    height: 380px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -450,6 +460,34 @@ main {
     width: 50px;
     padding: 5px;
     margin: 5px;
+}
+
+.logoImagen{
+    margin: auto;
+}
+
+.menuPrincipal ul li{
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+.menuPrincipal {
+    margin: auto;
+}
+
+.menuPrincipal ul{
+    list-style-type: none;
+}
+
+/* gradiente */
+.menuPrincipal{
+    background: rgb(4,47,102);
+    background: linear-gradient(0deg, rgba(4,47,102,0.9444152661064426) 0%, rgba(26,94,227,1) 30%);
+}
+
+.footerServicios {
+    background: rgb(4,47,102);
+    background: linear-gradient(180deg, rgba(4,47,102,0.9444152661064426) 0%, rgba(26,94,227,1) 30%);
 }
 
 /* cierre servicios */
@@ -689,10 +727,9 @@ display: none;
 	"header header header"
 	"main main main"
     "main main main"
-    "main main main"
     "footer footer footer";
     grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr auto auto auto auto;
+	grid-template-rows: 1fr auto auto auto auto;
 }
 
 .headProductos {
@@ -730,7 +767,7 @@ padding: 20px;
 }
 
 .parallax4 {    background-image: url("../multimedia/trayectoria.JPG");
-    height: 250px;
+    height: 420px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -798,6 +835,21 @@ padding: 20px;
     text-align: center;
     font-size: 60px;
     padding: 50px;
+}
+
+.logoImagen{
+    margin: auto;
+}
+
+/* gradiente */
+.menuPrincipal{
+    background: rgb(4,47,102);
+    background: linear-gradient(0deg, rgba(4,47,102,0.9444152661064426) 0%, rgba(26,94,227,1) 30%);
+}
+
+.footerProductos {
+    background: rgb(4,47,102);
+    background: linear-gradient(180deg, rgba(4,47,102,0.9444152661064426) 0%, rgba(26,94,227,1) 30%);
 }
 
 /* cierre productos */
@@ -1093,6 +1145,17 @@ display: none;
     margin: 5px;
 }
 
+/* gradiente */
+.menuPrincipal{
+    background: rgb(4,47,102);
+    background: linear-gradient(0deg, rgba(4,47,102,0.9444152661064426) 0%, rgba(26,94,227,1) 30%);
+}
+
+.footerContacto {
+    background: rgb(4,47,102);
+    background: linear-gradient(180deg, rgba(4,47,102,0.9444152661064426) 0%, rgba(26,94,227,1) 30%);
+}
+
 /* inicio tablet contacto */
 
 @media only screen and (min-width: 768px) and (max-width:1023px){
@@ -1253,6 +1316,17 @@ display: none;
     width: 50px;
     padding: 5px;
     margin: 5px;
+}
+
+/* gradiente */
+.menuPrincipal{
+    background: rgb(4,47,102);
+    background: linear-gradient(0deg, rgba(4,47,102,0.9444152661064426) 0%, rgba(26,94,227,1) 30%);
+}
+
+.footerUbicacion {
+    background: rgb(4,47,102);
+    background: linear-gradient(180deg, rgba(4,47,102,0.9444152661064426) 0%, rgba(26,94,227,1) 30%);
 }
 
 /* vista tablet ubicacion */
