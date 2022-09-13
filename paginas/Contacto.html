@@ -5,6 +5,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="../css/estilos.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!-- aos de cotizacion -->
 	<div class="logoImagen">
 		<img src="../multimedia/braver.jpg" width="1850" height="200"><!-- logo -->
 	</div>
@@ -25,7 +27,8 @@
 	</header><!-- cierre header -->
 <main><!-- inicio main -->
 <section class="seccionContacto"><!-- seccion contacto -->
-<div class="tituloContacto">
+<div class="tituloContacto" data-aos="fade-up"
+data-aos-duration="3000"><!-- aos -->
 	<p>Si estas interesado en recibir cotizacion para impulsar tu negocio completa nuestro formulario</p>
 </div>
 <div class="formularioContacto">
@@ -73,6 +76,9 @@
 		</a>
 	</div>
 </footer><!-- cierre footer -->
+<script>
+	AOS.init();
+</script><!-- aos de cotizacion -->
 </div><!-- fin contenedor padre -->
 </body><!-- cierre body -->
 </html>

@@ -419,7 +419,7 @@ main {
 }
 
 .parallax3 {    background-image: url("../multimedia/innovacion.JPG");
-    height: 380px;
+    height: 390px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1090,6 +1090,7 @@ display: none;
 .tituloContacto {
     display: flex;
     justify-content: center;
+    margin: 50px;
 }
 
 .formularioContacto {

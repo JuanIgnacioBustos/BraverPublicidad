@@ -5,6 +5,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="../css/estilos.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!-- aos de cotizacion -->
 	<div class="logoImagen">
 		<img src="../multimedia/braver.jpg" width="1850" height="200"><!-- logo -->
 	</div>
@@ -25,7 +27,8 @@
 	</header><!-- fin header -->
 <main><!-- inicio main -->
 	<section>
-		<div class="tituloUbicacion">
+		<div class="tituloUbicacion" data-aos="fade-up"
+		data-aos-anchor-placement="center-bottom"><!-- aos -->
 			<p><strong> Nuestras oficinas en Córdoba, Buenos Aires y Tucumán trabajan constantemente para lograr que más de 150 clientes se destaquen con una comunicación eficiente.<strong></p>
 		</div>
 		<div class="mapa">
@@ -56,6 +59,9 @@
 				<img src="../multimedia/telefono.png" alt="Contacto">
 					</a></div>
 </footer><!-- cierre footer -->
+<script>
+	AOS.init();
+</script><!-- aos de cotizacion -->
 </div><!-- fin contenedor padre -->
 </body><!-- cierre body -->
 </html>
