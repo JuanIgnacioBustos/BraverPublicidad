@@ -77,32 +77,8 @@ header{
     margin: 5px;
 }
 
-
-.menuPrincipal ul li{
-    display: inline-block;
-    padding: 20px 20px;;
-}
-
-.menuPrincipal ul{
-    list-style-type: none;
-}
-
-.menuPrincipal{
-    margin: auto;
-    background-color: #042f66;
-}
-
 .logoImagen{
     margin: auto;
-}
-
-.parallax2 {    background-image: url("../multimedia/parallaxIndex.JPG");
-    height: 250px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: bottom 5px;
 }
 
 .textoUno {
@@ -166,11 +142,6 @@ footer {
     grid-area: footer;
 }
 
-.menuPrincipal {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
 
 .footerIndex {
 	display: flex;
@@ -184,11 +155,32 @@ footer {
     list-style-type: none;
 }
 
-/* gradiente */
-.menuPrincipal{
+.bg-lav{
     background: rgb(4,47,102);
     background: linear-gradient(0deg, rgba(4,47,102,0.9444152661064426) 0%, rgba(26,94,227,1) 30%);
 }
+
+.btn-primary{
+    background-color: #c1cad0;
+    border-color: #c1cad0;
+    transition: all 0.25s ease-in-out;
+}
+
+:not(.btn-check)+.btn:hover{
+    background-color: #c1cad0;
+    border-color: #c1cad0;
+    transform: scale(0.9);
+}
+
+.nav-link{
+    color: #c1cad0;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #042f66;
+}
+
+/* gradiente */
 
 .footerIndex {
     background: rgb(4,47,102);
@@ -208,16 +200,21 @@ body {
 .contenedorIndex{
     display: grid;
     grid-template-areas:
+    "nav nav nav"
     "head head head"
 	"header header header"
 	"main main main"
     "footer footer footer";
     grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: auto auto auto auto;
+	grid-template-rows: auto auto auto auto auto;
 }
 
 head {
     grid-area: head;
+}
+
+nav {
+    grid-area: nav;
 }
 
 header {
