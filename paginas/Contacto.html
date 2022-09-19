@@ -4,52 +4,84 @@
 <link rel="shortcut icon" href="../multimedia/braver.jpg" type="image/x-icon">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"><!-- bootstrap -->
 <link rel="stylesheet" href="../css/estilos.css">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!-- aos de cotizacion -->
 	<div class="logoImagen">
-		<img src="../multimedia/braver.jpg" width="1850" height="200"><!-- logo -->
+		<img src="../multimedia/braver.jpg" width="1900" height="200"><!-- logo -->
 	</div>
 </head><!-- cierre head -->
 
 <body>
 <div class="contenedorContacto"><!-- Inicio contenedor padre -->
 	<header><!-- inicio header -->
-		<nav class="menuPrincipal">
-			<ul>
-				<li><a href="../index.html">Inicio</a></li>
-				<li><a href="../paginas/Servicios.html">Servicios</a></li>
-				<li><a href="../paginas/Productos.html">Productos</a></li>
-				<li><a href="../paginas/Ubicacion.html">Ubicacion</a></li>
-				<li><a href="../paginas/Contacto.html">Contacto</a></li>
-			</ul>
+		<nav class="navbar navbar-expand-lg bg-lav">
+			<div class="container-fluid">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+				<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="../index.html">Inicio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../paginas/Servicios.html">Servicios</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../paginas/Productos.html">Productos</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../paginas/Ubicacion.html">Ubicacion</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../paginas/Contacto.html">Contacto</a>
+				</li>
+				</ul>
+			</div>
 		</nav>
 	</header><!-- cierre header -->
 <main><!-- inicio main -->
-<section class="seccionContacto"><!-- seccion contacto -->
-<div class="tituloContacto" data-aos="fade-up"
+	<div class="tituloContacto" data-aos="fade-up"
 data-aos-duration="3000"><!-- aos -->
 	<p>Si estas interesado en recibir cotizacion para impulsar tu negocio completa nuestro formulario</p>
 </div>
-<div class="formularioContacto">
-	<form action="formulario">
-		<input type="text" placeholder="TU NOMBRE">
-			<label for="email">
-				<p>TU EMAIL:</p>
-		<input type="email" placeholder="aaa@gmail.com" name="email">
+<section class="seccionContacto"><!-- seccion contacto -->
+	<form class="row g-3">
+		<div class="col-md-6">
+		<label for="inputEmail4" class="form-label">Nombre</label>
+		<input type="email" class="form-control" id="inputEmail4">
+		</div>
+		<div class="col-md-6">
+		<label for="inputPassword4" class="form-label">Apellido</label>
+		<input type="password" class="form-control" id="inputPassword4">
+		</div>
+		<div class="col-12">
+		<label for="inputAddress" class="form-label">Domicilio</label>
+		<input type="text" class="form-control" id="inputAddress" placeholder="1234 Ciudad Calle">
+		</div>
+		<div class="col-12">
+		<label for="inputAddress2" class="form-label">Observaciones</label>
+		<input type="text" class="form-control" id="inputAddress2">
+		</div>
+		<div class="col-md-6">
+		<label for="inputCity" class="form-label">Email</label>
+		<input type="text" class="form-control" id="inputCity">
+		</div>
+		<div class="col-12">
+		<div class="form-check">
+			<input class="form-check-input" type="checkbox" id="gridCheck">
+			<label class="form-check-label" for="gridCheck">
+			Recibir Cotizacion
 			</label>
-			<label for="Observaciones">
-				<p>OBSERVACIONES:</p>
-					<textarea placeholder="Observaciones"></textarea>
-			</label>
-				<p>QUERES RECIBIR NUESTRA COTIZACION?</p>
-		<input type="checkbox" name="acepta" value="1">
-		<input type="submit" value="ACEPTAR">
-		<input type="reset" value="RESETEAR">
+		</div>
+		</div>
+		<div class="col-12">
+		<button type="submit" class="btn btn-primary">Aceptar</button>
+		</div>
 	</form>
-</div>
-</section><!-- cierre seccion contacto -->
-</mai><!-- cierre main -->
+</main><!-- cierre main -->
 
 <section class="parallax5"></section><!-- parallax -->
 
@@ -79,6 +111,8 @@ data-aos-duration="3000"><!-- aos -->
 <script>
 	AOS.init();
 </script><!-- aos de cotizacion -->
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </div><!-- fin contenedor padre -->
 </body><!-- cierre body -->
 </html>

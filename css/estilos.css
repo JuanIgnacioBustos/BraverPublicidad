@@ -230,24 +230,15 @@ footer {
 }
 
 .logoImagen img{
-    width: 768px;
+    width:auto;
 }
-
-.videoReferencial {
-    display: flex;
-    justify-content: center;
-}
-
-.parallax2 {
-    display: none
-} 
 
 .instagramRSS img{
     display: none;
 }
 
 .facebookRss img{
-display: none;
+    display: none;
 }
 
 .whatsappRss img{
@@ -256,6 +247,11 @@ display: none;
 
 .contactoRss img{
     display: none;
+}
+
+.footerIndex {
+    display: flex; 
+    justify-content: center;
 }
 
 }
@@ -284,27 +280,13 @@ p{
     width: 500px;
 }
 
-.parallax2 {
-    display: none;
-}
-
-.videoReferencial {
-    display: none;
-}
-
-.menuPrincipal {
-	display: flex;
-    flex-wrap: wrap;
-    font-size: 12px;
-}
-
 .cotizacionIndex img {
     width: 250px;
 }
 
 .footerIndex {
     display: flex; 
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .footerIndex img {
@@ -334,38 +316,24 @@ display: none;
 
 /* Servicios */
 
-.contenedorServicios {
-    display: grid;
-    grid-template-areas:
-    "head head head"
-	"header header header"
-	"main main main"
-    "main main main"
-    "footer footer footer";
-    grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr auto auto auto auto;
+.tituloServicios {
+    margin: 40px;
 }
 
-.headServicios {
-    grid-area: head;
-}
-
-header {
-    grid-area: header;
-}
-
-main {
-    grid-area: main;
-}
-
-.footerServicios {
-    grid-area: footer;
+.parallax3 {    background-image: url("../multimedia/parallaxservicios1.jpg");
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: bottom 5px;
 }
 
 .sectionUno {
     display: flex;
     justify-content: center;
     padding: 20px;
+    margin: 50px;
 }
 
 .sectionDos{
@@ -392,6 +360,7 @@ main {
     display: flex;
     justify-content: right;
 }
+
 .textoCuatro {
     display: flex;
     flex-direction: column;
@@ -413,15 +382,6 @@ main {
     color: #c1cad0 ;
     text-align: left;
     padding: 95px;
-}
-
-.parallax3 {    background-image: url("../multimedia/innovacion.JPG");
-    height: 390px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: bottom 5px;
 }
 
 .footerServicios {
@@ -463,24 +423,9 @@ main {
     margin: auto;
 }
 
-.menuPrincipal ul li{
-    display: inline-block;
-    padding: 20px 20px;
-}
 
-.menuPrincipal {
-    margin: auto;
-}
-
-.menuPrincipal ul{
-    list-style-type: none;
-}
 
 /* gradiente */
-.menuPrincipal{
-    background: rgb(4,47,102);
-    background: linear-gradient(0deg, rgba(4,47,102,0.9444152661064426) 0%, rgba(26,94,227,1) 30%);
-}
 
 .footerServicios {
     background: rgb(4,47,102);
@@ -573,7 +518,7 @@ p {
 }
 
 .logoImagen img{
-    width: 900px;
+    width: 768px;
 }
 
 .instagramRSS img{
@@ -717,52 +662,6 @@ display: none;
 
 /* inicio Productos */
 
-.contenedorProductos {
-    display: grid;
-    grid-template-areas:
-    "head head head"
-	"header header header"
-	"main main main"
-    "main main main"
-    "footer footer footer";
-    grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr auto auto auto auto;
-}
-
-.headProductos {
-    grid-area: head;
-}
-
-header {
-    grid-area: header;
-}
-
-main {
-    grid-area: main;
-}
-
-.footerProductos {
-    grid-area: footer;
-}
-
-.seccionUno {    
-display: flex;
-justify-content: center;
-padding: 20px;
-}
-
-.seccionDos {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
-
-.seccionTres {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
-
 .parallax4 {    background-image: url("../multimedia/trayectoria.JPG");
     height: 420px;
     background-attachment: fixed;
@@ -807,46 +706,31 @@ padding: 20px;
     margin: 5px;
 }
 
-.textoSeis {
-    display: flex;
-    flex-direction: column;
-    color:#c1cad0 ;
-    text-align: center;
-    font-size: 60px;
-    padding: 50px;
-}
-
-.textoSiete {
-    display: flex;
-    flex-direction: column;
-    color:#c1cad0 ;
-    text-align: left;
-    font-size: 60px;
-    padding: 50px;
-}
-
-.textoOcho {
-    display: flex;
-    flex-direction: column;
-    color:#c1cad0 ;
-    text-align: center;
-    font-size: 60px;
-    padding: 50px;
-}
-
-.logoImagen{
-    margin: auto;
-}
-
-/* gradiente */
-.menuPrincipal{
+.card-body {
     background: rgb(4,47,102);
     background: linear-gradient(0deg, rgba(4,47,102,0.9444152661064426) 0%, rgba(26,94,227,1) 30%);
+}
+
+.card-title {
+    color: #c1cad0;
+}
+
+.btn-primary{
+    color: #042f66;
 }
 
 .footerProductos {
     background: rgb(4,47,102);
     background: linear-gradient(180deg, rgba(4,47,102,0.9444152661064426) 0%, rgba(26,94,227,1) 30%);
+}
+
+.parallax4 {    background-image: url("../multimedia/parallaxproductos1.jpg");
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: bottom 5px;
 }
 
 /* cierre productos */
@@ -895,50 +779,8 @@ p {
     display: none;
 }
 
-.textoSeis {
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    color: #c1cad0 ;
-    margin-left: 60px;
-}
-
-.textoSiete {
-    display: flex;
-    flex-wrap: wrap;
-    color:#c1cad0 ;
-    text-align: center;
-    padding: 30px;
-}   
-
-.textoOcho {
-    display: flex;
-    flex-wrap: wrap;
-    color: #c1cad0 ;
-    text-align: left;
-    margin-left: 60px;
-}
-
 .logoImagen img{
-    width: 900px;
-}
-
-.carteleria img{
-    display: flex;
-    width: 400px;
-    height: 400px;
-}   
-
-.carapantallas img{
-    display: flex;
-    width: 400px;
-    height: 400px;
-}
-
-.refugios img {
-    display: flex;
-    width: 400px;
-    height: 400px;
+    width: 768px;
 }
 
 .instagramRSS img{
@@ -1018,12 +860,6 @@ li {
     width: 500px;
 }
 
-.menuPrincipal {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 12px;
-}
-
 .parallax4 {
     display: none;
 }
@@ -1044,24 +880,6 @@ li {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-}
-
-.carteleria img{
-    display: flex;
-    width: 200px;
-    height: 200px;
-}
-
-.carapantallas img{
-    display: flex;
-    width: 200px;
-    height: 200px;
-}
-
-.refugios img{
-    display: flex;
-    width: 200px;
-    height: 200px;
 }
 
 .instagramRSS img{
@@ -1090,7 +908,7 @@ display: none;
     margin: 50px;
 }
 
-.formularioContacto {
+.seccionContacto {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1143,15 +961,17 @@ display: none;
     margin: 5px;
 }
 
-/* gradiente */
-.menuPrincipal{
-    background: rgb(4,47,102);
-    background: linear-gradient(0deg, rgba(4,47,102,0.9444152661064426) 0%, rgba(26,94,227,1) 30%);
-}
-
 .footerContacto {
     background: rgb(4,47,102);
     background: linear-gradient(180deg, rgba(4,47,102,0.9444152661064426) 0%, rgba(26,94,227,1) 30%);
+}
+
+.form-label {
+    color: #c1cad0;
+}
+
+.form-check-label {
+    color: #c1cad0;
 }
 
 /* inicio tablet contacto */
@@ -1225,12 +1045,6 @@ p{
 
 .parallax5 {
     display: none;
-}
-
-.menuPrincipal {
-	display: flex;
-    flex-wrap: wrap;
-    font-size: 12px;
 }
 
 .footerContacto {
@@ -1317,10 +1131,6 @@ display: none;
 }
 
 /* gradiente */
-.menuPrincipal{
-    background: rgb(4,47,102);
-    background: linear-gradient(0deg, rgba(4,47,102,0.9444152661064426) 0%, rgba(26,94,227,1) 30%);
-}
 
 .footerUbicacion {
     background: rgb(4,47,102);
@@ -1344,7 +1154,7 @@ p {
 }
 
 .logoImagen img{
-    width: 900px;
+    width: 768px;
 }
 
 .tituloUbicacion {
