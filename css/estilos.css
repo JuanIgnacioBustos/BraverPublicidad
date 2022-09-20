@@ -194,8 +194,8 @@ footer {
 @media only screen and (min-width: 768px) and (max-width:1023px){
 
 body {
-        background-color: #042f66;
-    }
+    background-color: #042f66;
+}
 
 .contenedorIndex{
     display: grid;
@@ -223,7 +223,7 @@ header {
 
 main {
     grid-area: main;
-} */
+}
 
 footer {
     grid-area: footer;
@@ -254,6 +254,21 @@ footer {
     justify-content: center;
 }
 
+.textoUno {
+    font-size: 10px;
+}
+
+.textoDos {
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+.cotizacionIndex {
+    display: none;
+}
 }
 /* cierre vista tablet index */ 
 
@@ -263,11 +278,11 @@ footer {
 
 
 h1 {
-    font-size: 18px;
+    font-size: 12px;
 }
 
 p{
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .textoUno {
@@ -281,7 +296,7 @@ p{
 }
 
 .cotizacionIndex img {
-    width: 250px;
+    display: none;
 }
 
 .footerIndex {
@@ -300,7 +315,7 @@ p{
 }
 
 .facebookRss img{
-display: none;
+    display: none;
 }
 
 .whatsappRss img{
@@ -309,6 +324,14 @@ display: none;
 
 .contactoRss img{
     display: none;
+}
+
+.textoUno {
+    font-size: 10px;
+}
+
+.textoDos {
+    font-size: 10px;
 }
 
 }
@@ -467,12 +490,16 @@ main {
     grid-area: main;
 }
 
-p {
-    font-size: 18px;
-}
-
 .footerServicios {
     grid-area: footer;
+}
+
+p {
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 18px;
 }
 
 .parallax3 {
@@ -485,6 +512,7 @@ p {
     justify-content: center;
     color: #c1cad0 ;
     margin-left: 60px;
+    font-size: 10px;
 }
 
 .textoCuatro {
@@ -493,6 +521,8 @@ p {
     color:#c1cad0 ;
     text-align: center;
     padding: 30px;
+    font-size: 10px;
+
 }    
 .textoCinco {
     display: flex;
@@ -500,6 +530,7 @@ p {
     color: #c1cad0 ;
     text-align: left;
     margin-left: 60px;
+    font-size: 10px;
 }
 
 .campañaUno iframe{
@@ -526,7 +557,7 @@ p {
 }
 
 .facebookRss img{
-display: none;
+    display: none;
 }
 
 .whatsappRss img{
@@ -576,6 +607,10 @@ main {
 }
 
 p {
+    font-size: 10px;
+}
+
+h1 {
     font-size: 12px;
 }
 
@@ -600,12 +635,6 @@ li {
     width: 500px;
 }
 
-.menuPrincipal {
-	display: flex;
-    flex-wrap: wrap;
-    font-size: 12px;
-}
-
 .parallax3 {
     display: none;
 }
@@ -615,6 +644,7 @@ li {
     flex-direction: column;
     justify-content: center;
     margin-left: 60px;
+    font-size: 10px;
 }
 
 .textoCuatro {
@@ -622,6 +652,7 @@ li {
     flex-wrap: wrap;
     text-align: center;
     padding: 30px;
+    font-size: 10px;
 }    
 .textoCinco {
     display: none;
@@ -647,7 +678,7 @@ li {
 }
 
 .facebookRss img{
-display: none;
+    display: none;
 }
 
 .whatsappRss img{
@@ -767,13 +798,18 @@ main {
     grid-area: main;
 }
 
-p {
-    font-size: 18px;
-}
-
 .footerProductos {
     grid-area: footer;
 }
+
+p {
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
 
 .parallax4 {
     display: none;
@@ -788,7 +824,7 @@ p {
 }
 
 .facebookRss img{
-display: none;
+    display: none;
 }
 
 .whatsappRss img{
@@ -836,13 +872,18 @@ main {
 }
 
 p {
-    font-size: 12px;
+    font-size: 10px;
 }
 
 li {
     display: flex;
     flex-direction: row;
     font-size: 10px;
+}
+
+h1 {
+    font-size: 12px;
+
 }
 
 .footerProductos {
@@ -887,7 +928,7 @@ li {
 }
 
 .facebookRss img{
-display: none;
+    display: none;
 }
 
 .whatsappRss img{
@@ -982,11 +1023,44 @@ body {
     background-color: #042f66;
 }
 
+.contenedorContacto {
+    display: grid;
+    grid-area: 
+    "head head"
+    "header header"
+    "main main"
+    "main main"
+    "main main"
+    "footer footer";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr auto auto auto auto;
+}
+
+.headContacto {
+    grid-area: head;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+.footerContacto {
+    grid-area: footer;
+}
+
 .parallax5 {
     display: none;
 }
 
 p {
+    font-size: 15px;
+}
+
+h1 {
     font-size: 18px;
 }
 
@@ -1010,7 +1084,7 @@ p {
 }
 
 .facebookRss img{
-display: none;
+    display: none;
 }
 
 .whatsappRss img{
@@ -1025,11 +1099,41 @@ display: none;
 
 /* inicio movil contacto */
 
+
 @media only screen and (min-width:0px) and (max-width:500px){
 
-    /* index */
+    .contenedorContacto {
+    display: grid;
+    grid-template-areas: 
+    "head"
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr auto auto auto;
+}
+
+.headContacto {
+    grid-area: head;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+.footerContacto {
+    grid-area: footer;
+}
 
 p{
+    font-size: 10px;
+}
+
+h1{
     font-size: 12px;
 }
 
@@ -1057,7 +1161,7 @@ p{
 }
 
 .facebookRss img{
-display: none;
+    display: none;
 }
 
 .whatsappRss img{
@@ -1145,11 +1249,44 @@ body {
     background-color: #042f66;
 }
 
+.contenedorUbicacion {
+    display: grid;
+    grid-area: 
+    "head head"
+    "header header"
+    "main main"
+    "main main"
+    "main main"
+    "footer footer";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr auto auto auto auto;
+}
+
+.headUbicacion {
+    grid-area: head;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+.footerUbicacion {
+    grid-area: footer;
+}
+
 .parallax6 {
     display: none;
 }
 
 p {
+    font-size: 15px;
+}
+
+h1 {
     font-size: 18px;
 }
 
@@ -1198,9 +1335,38 @@ display: none;
 
 @media only screen and (min-width:0px) and (max-width:500px){
 
-    /* index */
+.contenedorUbicacion {
+    display: grid;
+    grid-template-areas: 
+    "head"
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr auto auto auto;
+}
+
+.headUbicacion {
+    grid-area: head;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+.footerUbicacion {
+    grid-area: footer;
+}
 
 p{
+    font-size: 10px;
+}
+
+h1 {
     font-size: 12px;
 }
 
@@ -1225,12 +1391,6 @@ p{
     display: none;
 }
 
-.menuPrincipal {
-	display: flex;
-    flex-wrap: wrap;
-    font-size: 12px;
-}
-
 .footerUbicacion {
     display: flex; 
     justify-content: space-around;
@@ -1247,7 +1407,7 @@ p{
 }
 
 .facebookRss img{
-display: none;
+    display: none;
 }
 
 .whatsappRss img{
