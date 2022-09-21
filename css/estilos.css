@@ -295,7 +295,7 @@ p{
     width: 500px;
 }
 
-.cotizacionIndex img {
+.cotizacionIndex {
     display: none;
 }
 
@@ -468,14 +468,16 @@ body {
 .contenedorServicios {
     display: grid;
     grid-area: 
-    "head head"
-    "header header"
-    "main main"
-    "main main"
-    "main main"
-    "footer footer";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr auto auto auto auto;
+    "head head head head head"
+    "header header header header header"
+    "main main main main main"
+    "main main main main main"
+    "main main main main main"
+    "footer footer footer footer footer"
+    "footer footer footer footer footer"
+    "footer footer footer footer footer";
+    grid-template-columns: 1fr 1fr auto auto auto;
+    grid-template-rows: 1fr 1fr auto auto auto auto auto auto;
 }
 
 .headServicios {
@@ -512,7 +514,6 @@ h1 {
     justify-content: center;
     color: #c1cad0 ;
     margin-left: 60px;
-    font-size: 10px;
 }
 
 .textoCuatro {
@@ -521,8 +522,6 @@ h1 {
     color:#c1cad0 ;
     text-align: center;
     padding: 30px;
-    font-size: 10px;
-
 }    
 .textoCinco {
     display: flex;
@@ -530,7 +529,6 @@ h1 {
     color: #c1cad0 ;
     text-align: left;
     margin-left: 60px;
-    font-size: 10px;
 }
 
 .campañaUno iframe{
@@ -557,7 +555,7 @@ h1 {
 }
 
 .facebookRss img{
-    display: none;
+display: none;
 }
 
 .whatsappRss img{
@@ -776,13 +774,13 @@ body {
 .contenedorProductos {
     display: grid;
     grid-area: 
-    "head head"
-    "header header"
-    "main main"
-    "main main"
-    "main main"
-    "footer footer";
-    grid-template-columns: 1fr 1fr;
+    "head head head"
+    "header header header"
+    "main main main"
+    "main main main"
+    "main main main"
+    "footer footer footer";
+    grid-template-columns: 1fr 1fr auto;
     grid-template-rows: 1fr 1fr auto auto auto auto;
 }
 
