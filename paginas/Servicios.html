@@ -1,32 +1,49 @@
 <!DOCTYPE html>
 <html lang="es">
-<head class="head"><!-- inicio head -->
+<head class="headServicios"><!-- inicio head -->
 <link rel="shortcut icon" href="../multimedia/braver.jpg" type="image/x-icon">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="../css/estilos.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"><!-- bootstrap -->
+<link rel="stylesheet" href="../css/estilos.css"><!-- css -->
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!-- aos-->
 	<div class="logoImagen">
-		<img src="../multimedia/braver.jpg" width="1850" height="200"><!-- logo -->
+		<img src="../multimedia/braver.jpg" width="1900" height="200"><!-- logo -->
 	</div>
 </head><!-- cierre head -->
-
 <body><!-- inicio body -->
 <div class="contenedorServicios"><!-- Inicio contenedor padre -->
-<header><!-- inicio header -->
-	<nav class="menuPrincipal">
-		<ul>
-			<li><a href="../index.html">Inicio</a></li>
-			<li><a href="../paginas/Servicios.html">Servicios</a></li>
-			<li><a href="../paginas/Productos.html">Productos</a></li>
-			<li><a href="../paginas/Ubicacion.html">Ubicacion</a></li>
-			<li><a href="../paginas/Contacto.html">Contacto</a></li>
-		</ul>
-	</nav>
-</header><!-- cierre header -->
-
+	<header><!-- inicio header -->
+		<nav class="navbar navbar-expand-lg bg-lav">
+			<div class="container-fluid">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+				<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="../index.html">Inicio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../paginas/Servicios.html">Servicios</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../paginas/Productos.html">Productos</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../paginas/Ubicacion.html">Ubicacion</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../paginas/Contacto.html">Contacto</a>
+				</li>
+				</ul>
+			</div>
+		</nav>
+	</header><!-- cierre header -->
 <main><!-- inicio main -->
+	<div class="tituloServicios"><h1>Nuestras Campañas</h1>
+	</div>
 	<section class="sectionUno"><!-- inicio seccion 1 -->
 		<div class="textoTres" data-aos="fade-right"
 		data-aos-offset="300"
@@ -40,10 +57,10 @@
 			</iframe>
 		</div>
 	</section><!-- fin seccion 1 -->
-
 	<section class="sectionDos"><!-- inicio seccion 2 -->
-		<div class="campañaDos">
-			<img src="../multimedia/campaña.jpg" width="800" height="250" alt="campaña" data-aos="fade-right"></div>
+		<div class="campañaTres">
+			<iframe width="800" height="315" src="https://www.youtube.com/embed/QAqrDpPfVl4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
 		<div class="textoCuatro" data-aos="fade-left"
 		data-aos-anchor="#example-anchor"
 		data-aos-offset="500"
@@ -53,7 +70,6 @@
 			<p>Las nuevas herramientas con las que podemos contar, nos permiten ofrecer un servicio cada vez más integral, adecuado para cada cliente, con una presencia particular en cada caso.</p>
 		</div>
 	</section><!-- fin seccion 2 -->
-
 	<section class="sectionTres"><!-- inicio seccion 3 -->
 		<div class="textoCinco" data-aos="fade-right"
 		data-aos-offset="300"
@@ -65,11 +81,8 @@
 			</iframe>
 		</div>
 	</section><!-- fin seccion 3 -->
-
-	<section class="parallax3"></section><!-- parallax -->
-
 </main><!-- fin main -->
-
+<section class="parallax3"></section><!-- parallax -->
 <footer class="footerServicios"><!-- inicio footer -->
 	<li>Copyright 2022 - Publicidad Braver - Todos los derechos reservados</li>
 		<div class="instagramRSS">
@@ -92,11 +105,11 @@
 						<img src="../multimedia/telefono.png" alt="Contacto">
 					</a>
 				</div>
-
 </footer><!-- cierre footer -->
 <script>
 	AOS.init();
 </script><!-- aos -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script><!-- java bootstrap -->
 </div><!-- cierre contenedor padre -->
 </body><!-- cierre body -->
 </html>

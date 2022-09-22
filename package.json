@@ -1,7 +1,11 @@
 {
   "name": "braver---bustos",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "c",
+=======
+  "description": "",
+>>>>>>> responsive
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
