@@ -190,7 +190,7 @@ footer {
 
 /* vista tablet index */
 
-@media only screen and (min-width: 768px) and (max-width:1023px){
+/* @media only screen and (min-width: 768px) and (max-width:1023px){
 
 body {
     background-color: #042f66;
@@ -268,12 +268,12 @@ h1 {
 .cotizacionIndex {
     display: none;
 }
-}
+} */
 /* cierre vista tablet index */ 
 
 /* vista movil index */
 
-@media only screen and (min-width:0px) and (max-width:500px){
+/* @media only screen and (min-width:0px) and (max-width:500px){
 
 
 h1 {
@@ -334,14 +334,14 @@ p{
 }
 
 }
-/* cierre de vista movil */
+ *//* cierre de vista movil */
 
 /* Servicios */
 
-.tituloServicios {
+/* .tituloServicios {
     margin: 40px;
 }
-
+ */
 .parallax3 {    background-image: url("../multimedia/parallaxservicios1.jpg");
     height: 250px;
     background-attachment: fixed;
@@ -351,7 +351,7 @@ p{
     margin: bottom 5px;
 }
 
-.sectionUno {
+/* .sectionUno {
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -368,45 +368,45 @@ p{
     display: flex;
     justify-content: center;
     padding: 20px;
-}
-
+} */
+/* 
 .textoTres {
     display: flex;
     flex-direction: column;  
     color: #c1cad0 ;
     text-align: left;
-    padding: 75px;
-}
+    padding: 75px; */
+/* } */
 
-.campañaUno {
+/* .campañaUno {
     display: flex;
     justify-content: right;
-}
+} */
 
-.textoCuatro {
+/* .textoCuatro {
     display: flex;
     flex-direction: column;
     color:#c1cad0 ;
     text-align: center;
     font-size: 60px;
     padding: 50px;
-}
+} */
 
-.campañaTres {
+/* .campañaTres {
     display: flex;
     justify-content: right;
     padding: 15px;
-}
+} */
 
-.textoCinco {
+/* .textoCinco {
     display: flex;
     flex-direction: column;
     color: #c1cad0 ;
     text-align: left;
     padding: 95px;
 }
-
-.footerServicios {
+ */
+/* .footerServicios {
 	display: flex;
 	flex-direction:row;
 	justify-content:end;
@@ -439,26 +439,26 @@ p{
     width: 50px;
     padding: 5px;
     margin: 5px;
-}
+} */
 
-.logoImagen{
+/* .logoImagen{
     margin: auto;
 }
-
+ */
 
 
 /* gradiente */
 
-.footerServicios {
+/* .footerServicios {
     background: rgb(4,47,102);
     background: linear-gradient(180deg, rgba(4,47,102,0.9444152661064426) 0%, rgba(26,94,227,1) 30%);
 }
-
+ */
 /* cierre servicios */
 
 /* vista tablet servicios */
 
-@media only screen and (min-width: 768px) and (max-width:1023px){
+/* @media only screen and (min-width: 768px) and (max-width:1023px){
 
 body {
     background-color: #042f66;
@@ -565,11 +565,11 @@ display: none;
     display: none;
 }
 
-}
+} */
 /* fin vista tablet servicios */
 
 /* vista movil servicios */
-
+/* 
 @media only screen and (min-width:0px) and (max-width:500px){
 
 body{
@@ -686,7 +686,7 @@ li {
     display: none;
 }
 
-}/* cierre vista movil servicios */
+} *//* cierre vista movil servicios */
 
 /* inicio Productos */
 
