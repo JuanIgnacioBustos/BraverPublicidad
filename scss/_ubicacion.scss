@@ -1,68 +1,21 @@
-/* servicios */
-.tituloServicios {
-    margin: 40px;
-}
+@import "variables";
 
-.sectionUno {
+/* ubicacion */
+
+.tituloUbicacion {
     display: flex;
     justify-content: center;
     padding: 20px;
-    margin: 50px;
+    font-size: 20px;
 }
 
-.sectionDos{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
-
-.sectionTres {
+.mapa {
     display: flex;
     justify-content: center;
     padding: 20px;
 }
 
-.textoTres {
-    display: flex;
-    flex-direction: column;  
-    color: #c1cad0 ;
-    text-align: left;
-    padding: 75px;
-}
-
-.textoCuatro {
-    display: flex;
-    flex-direction: column;
-    color:#c1cad0 ;
-    text-align: center;
-    font-size: 60px;
-    padding: 50px;
-}
-
-.textoCinco {
-    display: flex;
-    flex-direction: column;
-    color: #c1cad0 ;
-    text-align: left;
-    padding: 95px;
-}
-
-.campañaUno {
-    display: flex;
-    justify-content: right;
-}
-
-.campañaTres {
-    display: flex;
-    justify-content: right;
-    padding: 15px;
-}
-
-.logoImagen{
-    margin: auto;
-}
-
-.parallax3 {    background-image: url("../multimedia/parallaxservicios1.jpg");
+.parallax6 {    background-image: url("../multimedia/fondoindex.JPG");
     height: 250px;
     background-attachment: fixed;
     background-position: center;
@@ -71,7 +24,7 @@
     margin: bottom 5px;
 }
 
-.footerServicios {
+.footerUbicacion {
     background: $azulclaro;
     background: $gradientefooter;
 	display: flex;
@@ -107,9 +60,16 @@
     margin: 5px;
 }
 
+.cotizacionIndex img{
+    width: 500px;
+    padding: 5px;
+    margin: 5px;
+}
+
 .bg-lav{
     background: $azulclaro;
-    background: $gradientemenu}
+    background: $gradientemenu
+}
 
 .btn-primary{
     background-color: $blanco;
@@ -141,9 +101,7 @@
     }
 }
 
-/* cierre servicios */
-
-/* vista tablet servicios */
+/* vista tablet ubicacion */
 
 @media only screen and (min-width: 768px) and (max-width:1023px){
 
@@ -151,7 +109,7 @@ body {
     background-color: #042f66;
 }
 
-.contenedorServicios {
+.contenedorUbicacion {
     display: grid;
     grid-area: 
     "head head"
@@ -164,7 +122,7 @@ body {
     grid-template-rows: 1fr 1fr auto auto auto auto;
 }
 
-.headServicios {
+.headUbicacion {
     grid-area: head;
 }
 
@@ -174,10 +132,14 @@ header {
 
 main {
     grid-area: main;
-    }
+}
 
-.footerServicios {
+.footerUbicacion {
     grid-area: footer;
+}
+
+.parallax6 {
+    display: none;
 }
 
 p {
@@ -188,54 +150,27 @@ h1 {
     font-size: 18px;
 }
 
-.parallax3 {
-    display: none;
+.logoImagen img{
+    width: 768px;
 }
 
-.textoTres {
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    color: #c1cad0 ;
-    margin-left: 60px;
-    font-size: 10px;
-}
-
-.textoCuatro {
+.tituloUbicacion {
     display: flex;
     flex-wrap: wrap;
     color:#c1cad0 ;
     text-align: center;
-    padding: 30px;
-    font-size: 10px;
 }    
 
-.textoCinco {
+.mapa {
     display: flex;
-    flex-wrap: wrap;
-    color: #c1cad0 ;
-    text-align: left;
-    margin-left: 60px;
-    font-size: 10px;
+    justify-content: center;
+    width: 500px;
+    padding: 150px;
 }
 
-.campañaUno iframe{
-    display: none;
-}
-
-.campañaDos img{
+.footerUbicacion {
     display: flex;
-    width: 400px;
-    height: 400px;
-}   
-
-.campañaTres iframe{
-    width: 350px;
-    padding: 90px;
-}
-
-.logoImagen img{
-    width: 768px;
+    justify-content: end;
 }
 
 .instagramRSS img{
@@ -254,17 +189,13 @@ h1 {
     display: none;
 }
 
-}
-/* fin vista tablet servicios */
-/* vista movil servicios */
+}/* cierre vista tablet ubicacion */
+
+/* inicio movil ubicacion */
 
 @media only screen and (min-width:0px) and (max-width:500px){
 
-body{
-    background-color: #042f66;
-}
-
-.contenedorServicios {
+.contenedorUbicacion {
     display: grid;
     grid-template-areas: 
     "head"
@@ -272,10 +203,10 @@ body{
     "main"
     "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 1fr 1fr auto auto;
+    grid-template-rows: 1fr auto auto auto;
 }
 
-.headServicios {
+.headUbicacion {
     grid-area: head;
 }
 
@@ -287,11 +218,11 @@ main {
     grid-area: main;
 }
 
-.footerServicios {
+.footerUbicacion {
     grid-area: footer;
 }
 
-p {
+p{
     font-size: 10px;
 }
 
@@ -299,13 +230,29 @@ h1 {
     font-size: 12px;
 }
 
-li {
+.tituloUbicacion {
     display: flex;
-    flex-direction: row;
-    font-size: 10px;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.footerServicios {
+.mapa {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    padding: 150px;
+}
+
+
+.logoImagen img{
+    width: 500px;
+}
+
+.parallax6 {
+    display: none;
+}
+
+.footerUbicacion {
     display: flex; 
     justify-content: space-around;
     img {
@@ -313,49 +260,6 @@ li {
     justify-content: space-around;
     width: 20px;
     }
-}
-
-.logoImagen img{
-    width: 500px;
-}
-
-.parallax3 {
-    display: none;
-}
-
-.textoTres {
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 60px;
-    font-size: 10px;
-}
-
-.textoCuatro {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    padding: 30px;
-    font-size: 10px;
-}
-
-.textoCinco {
-    display: none;
-}
-
-.campañaUno iframe{
-    display: none;
-}
-
-.campañaDos img{
-    display: flex;
-    width: 200px;
-    height: 200px;
-}   
-
-.campañaTres iframe{
-    width: 250px;
-    height: 250px;
 }
 
 .instagramRSS img{
@@ -374,4 +278,5 @@ li {
     display: none;
 }
 
-}/* cierre vista movil servicios */
+}
+/* cierre vista movil ubicacion */

@@ -1,0 +1,267 @@
+@import "variables";
+
+/* inicio contacto */
+
+.tituloContacto {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.seccionContacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 50px;
+}
+
+.form-label {
+    color: $blanco;
+}
+
+.form-check-label {
+    color: $blanco;
+}
+
+.parallax5 {    background-image: url("../multimedia/compromiso.jpg");
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: bottom 5px;
+}
+
+.footerContacto {
+    background: $azulclaro;
+    background: $gradientefooter;
+	display: flex;
+	flex-direction:row;
+	justify-content:end;}
+    li{
+    padding: 15px;
+    margin: 15px;
+    list-style-type: none;
+}
+
+.instagramRSS img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;    
+}
+
+.facebookRss img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.whatsappRss img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.contactoRss img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.cotizacionIndex img{
+    width: 500px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.bg-lav{
+    background: $azulclaro;
+    background: $gradientemenu}
+
+.btn-primary{
+    background-color: $blanco;
+    border-color: $blanco;
+    transition: all 0.25s ease-in-out;
+}
+
+:not(.btn-check){
+.btn:hover{
+    background-color: $blanco;
+    border-color: $blanco;
+    transform: scale(0.9);
+    }
+}
+
+.nav-link{
+    color: $blanco;
+}
+
+.navbar-nav{
+.nav-link.active{
+.navbar-nav{
+.show>{
+.nav-link {
+    color: $azul;
+                }
+            }
+        }
+    }
+}
+
+/* inicio tablet contacto */
+
+@media only screen and (min-width: 768px) and (max-width:1023px){
+
+body {
+    background-color: #042f66;
+}
+
+.contenedorContacto {
+    display: grid;
+    grid-area: 
+    "head head"
+    "header header"
+    "main main"
+    "main main"
+    "main main"
+    "footer footer";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr auto auto auto auto;
+}
+
+.headContacto {
+    grid-area: head;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+.footerContacto {
+    grid-area: footer;
+}
+
+.parallax5 {
+    display: none;
+}
+
+p {
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+.logoImagen img{
+    width: 900px;
+}
+
+.footerContacto {
+    display: flex;
+    flex-direction:row;
+    justify-content:end;
+    li{
+    padding: 30px;
+    list-style-type: none;
+    }
+}
+
+.instagramRSS img{
+    display: none;
+}
+
+.facebookRss img{
+    display: none;
+}
+
+.whatsappRss img{
+    display: none;
+}
+
+.contactoRss img{
+    display: none;
+}
+
+}/* cierre vista tablet */
+
+/* inicio movil contacto */
+
+@media only screen and (min-width:0px) and (max-width:500px){
+
+.contenedorContacto {
+    display: grid;
+    grid-template-areas: 
+    "head"
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr auto auto auto;
+}
+
+.headContacto {
+    grid-area: head;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+.footerContacto {
+    grid-area: footer;
+}
+
+p{
+    font-size: 10px;
+}
+
+h1{
+    font-size: 12px;
+}
+
+.tituloContacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logoImagen img{
+    width: 500px;
+}
+
+.parallax5 {
+    display: none;
+}
+
+.footerContacto {
+    display: flex; 
+    justify-content: space-around;
+}
+
+.instagramRSS img{
+    display: none;
+}
+
+.facebookRss img{
+    display: none;
+}
+
+.whatsappRss img{
+    display: none;
+}
+
+.contactoRss img{
+    display: none;
+}
+
+}/* cierre vista movil contacto */

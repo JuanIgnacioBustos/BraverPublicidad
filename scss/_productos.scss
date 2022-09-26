@@ -1,68 +1,24 @@
-/* servicios */
-.tituloServicios {
-    margin: 40px;
+@import "variables";
+
+
+/* Productos */
+
+
+.card-body {
+    border-color: $azul;
+    background: $azulclaro;
+    background: $gradientemenu;
 }
 
-.sectionUno {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    margin: 50px;
+.card-title {
+    color: $blanco;
 }
 
-.sectionDos{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+.btn-primary{
+    color: $azul;
 }
 
-.sectionTres {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
-
-.textoTres {
-    display: flex;
-    flex-direction: column;  
-    color: #c1cad0 ;
-    text-align: left;
-    padding: 75px;
-}
-
-.textoCuatro {
-    display: flex;
-    flex-direction: column;
-    color:#c1cad0 ;
-    text-align: center;
-    font-size: 60px;
-    padding: 50px;
-}
-
-.textoCinco {
-    display: flex;
-    flex-direction: column;
-    color: #c1cad0 ;
-    text-align: left;
-    padding: 95px;
-}
-
-.campañaUno {
-    display: flex;
-    justify-content: right;
-}
-
-.campañaTres {
-    display: flex;
-    justify-content: right;
-    padding: 15px;
-}
-
-.logoImagen{
-    margin: auto;
-}
-
-.parallax3 {    background-image: url("../multimedia/parallaxservicios1.jpg");
+.parallax4 {    background-image: url("../multimedia/parallaxproductos1.jpg");
     height: 250px;
     background-attachment: fixed;
     background-position: center;
@@ -71,7 +27,7 @@
     margin: bottom 5px;
 }
 
-.footerServicios {
+.footerProductos {
     background: $azulclaro;
     background: $gradientefooter;
 	display: flex;
@@ -109,7 +65,8 @@
 
 .bg-lav{
     background: $azulclaro;
-    background: $gradientemenu}
+    background: $gradientemenu
+}
 
 .btn-primary{
     background-color: $blanco;
@@ -141,9 +98,9 @@
     }
 }
 
-/* cierre servicios */
+/* cierre productos */
+/* inicio vista tablet productos */
 
-/* vista tablet servicios */
 
 @media only screen and (min-width: 768px) and (max-width:1023px){
 
@@ -151,7 +108,7 @@ body {
     background-color: #042f66;
 }
 
-.contenedorServicios {
+.contenedorProductos {
     display: grid;
     grid-area: 
     "head head"
@@ -164,7 +121,7 @@ body {
     grid-template-rows: 1fr 1fr auto auto auto auto;
 }
 
-.headServicios {
+.headProductos {
     grid-area: head;
 }
 
@@ -174,9 +131,9 @@ header {
 
 main {
     grid-area: main;
-    }
+}
 
-.footerServicios {
+.footerProductos {
     grid-area: footer;
 }
 
@@ -188,50 +145,8 @@ h1 {
     font-size: 18px;
 }
 
-.parallax3 {
+.parallax4 {
     display: none;
-}
-
-.textoTres {
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    color: #c1cad0 ;
-    margin-left: 60px;
-    font-size: 10px;
-}
-
-.textoCuatro {
-    display: flex;
-    flex-wrap: wrap;
-    color:#c1cad0 ;
-    text-align: center;
-    padding: 30px;
-    font-size: 10px;
-}    
-
-.textoCinco {
-    display: flex;
-    flex-wrap: wrap;
-    color: #c1cad0 ;
-    text-align: left;
-    margin-left: 60px;
-    font-size: 10px;
-}
-
-.campañaUno iframe{
-    display: none;
-}
-
-.campañaDos img{
-    display: flex;
-    width: 400px;
-    height: 400px;
-}   
-
-.campañaTres iframe{
-    width: 350px;
-    padding: 90px;
 }
 
 .logoImagen img{
@@ -254,10 +169,9 @@ h1 {
     display: none;
 }
 
-}
-/* fin vista tablet servicios */
-/* vista movil servicios */
+}/* cierre vista tablet productos */
 
+/* inicio vista movil productos */
 @media only screen and (min-width:0px) and (max-width:500px){
 
 body{
@@ -272,10 +186,10 @@ body{
     "main"
     "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 1fr 1fr auto auto;
+    grid-template-rows: 1fr auto auto auto;
 }
 
-.headServicios {
+.headProductos {
     grid-area: head;
 }
 
@@ -287,16 +201,12 @@ main {
     grid-area: main;
 }
 
-.footerServicios {
+.footerProductos {
     grid-area: footer;
 }
 
 p {
     font-size: 10px;
-}
-
-h1 {
-    font-size: 12px;
 }
 
 li {
@@ -305,7 +215,12 @@ li {
     font-size: 10px;
 }
 
-.footerServicios {
+h1 {
+    font-size: 12px;
+
+}
+
+.footerProductos {
     display: flex; 
     justify-content: space-around;
     img {
@@ -319,43 +234,26 @@ li {
     width: 500px;
 }
 
-.parallax3 {
+.parallax4 {
     display: none;
 }
 
-.textoTres {
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 60px;
-    font-size: 10px;
-}
-
-.textoCuatro {
+.textoSeis{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    padding: 30px;
-    font-size: 10px;
 }
 
-.textoCinco {
-    display: none;
-}
-
-.campañaUno iframe{
-    display: none;
-}
-
-.campañaDos img{
+.textoSiete{
     display: flex;
-    width: 200px;
-    height: 200px;
-}   
+    flex-wrap: wrap;
+    text-align: center;
+}
 
-.campañaTres iframe{
-    width: 250px;
-    height: 250px;
+.textoOcho{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .instagramRSS img{
@@ -374,4 +272,4 @@ li {
     display: none;
 }
 
-}/* cierre vista movil servicios */
+}/* cierre vista movil productos */

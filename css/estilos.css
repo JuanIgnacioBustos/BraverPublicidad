@@ -571,7 +571,7 @@ h1 {
 /* fin vista tablet servicios */
 
 /* vista movil servicios */
-
+/* 
 @media only screen and (min-width:0px) and (max-width:500px){
 
 body{
@@ -688,7 +688,7 @@ li {
     display: none;
 }
 
-}/* cierre vista movil servicios */
+} *//* cierre vista movil servicios */
 
 /* inicio Productos */
 
