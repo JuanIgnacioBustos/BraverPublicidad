@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0%;
   padding: 0%; }
@@ -216,3 +217,244 @@ li {
     font-size: 10px; } }
 
 /* cierre de vista movil */
+/* servicios */
+.tituloServicios {
+  margin: 40px; }
+
+.sectionUno {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 50px; }
+
+.sectionDos {
+  display: flex;
+  justify-content: center;
+  padding: 20px; }
+
+.sectionTres {
+  display: flex;
+  justify-content: center;
+  padding: 20px; }
+
+.textoTres {
+  display: flex;
+  flex-direction: column;
+  color: #c1cad0;
+  text-align: left;
+  padding: 75px; }
+
+.textoCuatro {
+  display: flex;
+  flex-direction: column;
+  color: #c1cad0;
+  text-align: center;
+  font-size: 60px;
+  padding: 50px; }
+
+.textoCinco {
+  display: flex;
+  flex-direction: column;
+  color: #c1cad0;
+  text-align: left;
+  padding: 95px; }
+
+.campañaUno {
+  display: flex;
+  justify-content: right; }
+
+.campañaTres {
+  display: flex;
+  justify-content: right;
+  padding: 15px; }
+
+.logoImagen {
+  margin: auto; }
+
+.footerServicios {
+  background: #042f66;
+  background: linear-gradient(180deg, rgba(4, 47, 102, 0.944415) 0%, #1a5ee3 30%);
+  display: flex;
+  flex-direction: row;
+  justify-content: end; }
+
+li {
+  padding: 15px;
+  margin: 15px;
+  list-style-type: none; }
+
+.instagramRSS img {
+  width: 50px;
+  padding: 5px;
+  margin: 5px; }
+
+.facebookRss img {
+  width: 50px;
+  padding: 5px;
+  margin: 5px; }
+
+.whatsappRss img {
+  width: 50px;
+  padding: 5px;
+  margin: 5px; }
+
+.contactoRss img {
+  width: 50px;
+  padding: 5px;
+  margin: 5px; }
+
+.bg-lav {
+  background: #042f66;
+  background: linear-gradient(0deg, rgba(4, 47, 102, 0.944415) 0%, #1a5ee3 30%); }
+
+.btn-primary {
+  background-color: #c1cad0;
+  border-color: #c1cad0;
+  transition: all 0.25s ease-in-out; }
+
+:not(.btn-check) .btn:hover {
+  background-color: #c1cad0;
+  border-color: #c1cad0;
+  transform: scale(0.9); }
+
+.nav-link {
+  color: #c1cad0; }
+
+.navbar-nav .nav-link.active .navbar-nav .show > .nav-link {
+  color: #042f66; }
+
+/* cierre servicios */
+/* vista tablet servicios */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background-color: #042f66; }
+  .contenedorServicios {
+    display: grid;
+    grid-area: "head head" "header header" "main main" "main main" "main main" "footer footer";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr auto auto auto auto; }
+  .headServicios {
+    grid-area: head; }
+  header {
+    grid-area: header; }
+  main {
+    grid-area: main; }
+  .footerServicios {
+    grid-area: footer; }
+  p {
+    font-size: 15px; }
+  h1 {
+    font-size: 18px; }
+  .parallax3 {
+    display: none; }
+  .textoTres {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #c1cad0;
+    margin-left: 60px;
+    font-size: 10px; }
+  .textoCuatro {
+    display: flex;
+    flex-wrap: wrap;
+    color: #c1cad0;
+    text-align: center;
+    padding: 30px;
+    font-size: 10px; }
+  .textoCinco {
+    display: flex;
+    flex-wrap: wrap;
+    color: #c1cad0;
+    text-align: left;
+    margin-left: 60px;
+    font-size: 10px; }
+  .campañaUno iframe {
+    display: none; }
+  .campañaDos img {
+    display: flex;
+    width: 400px;
+    height: 400px; }
+  .campañaTres iframe {
+    width: 350px;
+    padding: 90px; }
+  .logoImagen img {
+    width: 768px; }
+  .instagramRSS img {
+    display: none; }
+  .facebookRss img {
+    display: none; }
+  .whatsappRss img {
+    display: none; }
+  .contactoRss img {
+    display: none; } }
+
+/* fin vista tablet servicios */
+/* vista movil servicios */
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+  body {
+    background-color: #042f66; }
+  .contenedorServicios {
+    display: grid;
+    grid-template-areas: "head" "header" "main" "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr auto auto; }
+  .headServicios {
+    grid-area: head; }
+  header {
+    grid-area: header; }
+  main {
+    grid-area: main; }
+  .footerServicios {
+    grid-area: footer; }
+  p {
+    font-size: 10px; }
+  h1 {
+    font-size: 12px; }
+  li {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px; }
+  .footerServicios {
+    display: flex;
+    justify-content: space-around; }
+    .footerServicios img {
+      display: flex;
+      justify-content: space-around;
+      width: 20px; }
+  .logoImagen img {
+    width: 500px; }
+  .parallax3 {
+    display: none; }
+  .textoTres {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60px;
+    font-size: 10px; }
+  .textoCuatro {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 30px;
+    font-size: 10px; }
+  .textoCinco {
+    display: none; }
+  .campañaUno iframe {
+    display: none; }
+  .campañaDos img {
+    display: flex;
+    width: 200px;
+    height: 200px; }
+  .campañaTres iframe {
+    width: 250px;
+    height: 250px; }
+  .instagramRSS img {
+    display: none; }
+  .facebookRss img {
+    display: none; }
+  .whatsappRss img {
+    display: none; }
+  .contactoRss img {
+    display: none; } }
+
+/* cierre vista movil servicios */
