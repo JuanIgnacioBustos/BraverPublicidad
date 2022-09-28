@@ -9,16 +9,16 @@ html {
 body {
   background-color: #042f66; }
 
-p {
-  font-family: 'Oswald', sans-serif;
-  font-size: 20px;
-  color: #c1cad0; }
-
+/* p{ 
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px; 
+        color:$blanco;
+} */
 h1 {
   color: #c1cad0;
   text-align: center;
   font-weight: bold;
-  font-size: 100px;
+  font-size: 80px;
   font-family: 'Oswald', sans-serif; }
 
 a {
@@ -192,7 +192,7 @@ footer {
 /* vista movil index */
 @media only screen and (min-width: 0px) and (max-width: 500px) {
   .tituloIndex h1 {
-    font-size: 20px; }
+    font-size: 15px; }
   .textoUno {
     display: flex;
     flex-direction: column;
@@ -371,7 +371,10 @@ footer {
   .whatsappRss img {
     display: none; }
   .contactoRss img {
-    display: none; } }
+    display: none; }
+  .footerServicios {
+    display: flex;
+    justify-content: center; } }
 
 /* fin vista tablet servicios */
 /* vista movil servicios */
@@ -512,7 +515,10 @@ footer {
   .whatsappRss img {
     display: none; }
   .contactoRss img {
-    display: none; } }
+    display: none; }
+  .footerProductos {
+    display: flex;
+    justify-content: center; } }
 
 /* cierre vista tablet productos */
 /* inicio vista movil productos */
@@ -635,7 +641,7 @@ footer {
   body {
     background-color: #042f66; }
   .logoImagen {
-    width: auto; }
+    width: 740px; }
   .parallax6 {
     display: none; }
   p {
@@ -649,7 +655,8 @@ footer {
   .mapa iframe {
     display: flex;
     justify-content: center;
-    width: 350px; }
+    width: 350px;
+    align-items: center; }
   .footerUbicacion {
     display: flex;
     justify-content: center;
@@ -687,7 +694,8 @@ footer {
   .titulofooter p {
     font-size: 5px; }
   .mapa {
-    width: 200px; }
+    width: 280px;
+    align-items: center; }
   .logoImagen img {
     width: auto; }
   .parallax6 {
