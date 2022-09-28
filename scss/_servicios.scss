@@ -77,7 +77,7 @@
 	display: flex;
 	flex-direction:row;
 	justify-content:end;}
-    li{
+    .titulofooter{
     padding: 15px;
     margin: 15px;
     list-style-type: none;
@@ -145,47 +145,10 @@
 
 /* vista tablet servicios */
 
-@media only screen and (min-width: 768px) and (max-width:1023px){
+@media only screen and (min-width: 766px) and (max-width:1023px){
 
 body {
     background-color: #042f66;
-}
-
-.contenedorServicios {
-    display: grid;
-    grid-area: 
-    "head head"
-    "header header"
-    "main main"
-    "main main"
-    "main main"
-    "footer footer";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr auto auto auto auto;
-}
-
-.headServicios {
-    grid-area: head;
-}
-
-header {
-    grid-area: header;
-}
-
-main {
-    grid-area: main;
-    }
-
-.footerServicios {
-    grid-area: footer;
-}
-
-p {
-    font-size: 15px;
-}
-
-h1 {
-    font-size: 18px;
 }
 
 .parallax3 {
@@ -197,17 +160,11 @@ h1 {
     flex-direction: column;
     justify-content: center;
     color: #c1cad0 ;
-    margin-left: 60px;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .textoCuatro {
-    display: flex;
-    flex-wrap: wrap;
-    color:#c1cad0 ;
-    text-align: center;
-    padding: 30px;
-    font-size: 10px;
+    display: none;
 }    
 
 .textoCinco {
@@ -215,7 +172,6 @@ h1 {
     flex-wrap: wrap;
     color: #c1cad0 ;
     text-align: left;
-    margin-left: 60px;
     font-size: 10px;
 }
 
@@ -223,15 +179,12 @@ h1 {
     display: none;
 }
 
-.campañaDos img{
-    display: flex;
-    width: 400px;
-    height: 400px;
-}   
+.campañaTress{
+    display: none;
+}
 
 .campañaTres iframe{
-    width: 350px;
-    padding: 90px;
+    width: 400px;
 }
 
 .logoImagen img{
@@ -264,47 +217,6 @@ body{
     background-color: #042f66;
 }
 
-.contenedorServicios {
-    display: grid;
-    grid-template-areas: 
-    "head"
-    "header"
-    "main"
-    "footer";
-    grid-template-columns: 100%;
-    grid-template-rows: 1fr 1fr auto auto;
-}
-
-.headServicios {
-    grid-area: head;
-}
-
-header {
-    grid-area: header;
-}
-
-main {
-    grid-area: main;
-}
-
-.footerServicios {
-    grid-area: footer;
-}
-
-p {
-    font-size: 10px;
-}
-
-h1 {
-    font-size: 12px;
-}
-
-li {
-    display: flex;
-    flex-direction: row;
-    font-size: 10px;
-}
-
 .footerServicios {
     display: flex; 
     justify-content: space-around;
@@ -315,6 +227,10 @@ li {
     }
 }
 
+.footerServicios p {
+    font-size: 12px;
+}
+
 .logoImagen img{
     width: 500px;
 }
@@ -323,39 +239,48 @@ li {
     display: none;
 }
 
+.tituloServicios h1{
+    font-size: 18px;
+}
+
 .textoTres {
     display: flex; 
     flex-direction: column;
     justify-content: center;
     margin-left: 60px;
-    font-size: 10px;
+}
+
+.textoTres p {
+    font-size: 15px;
 }
 
 .textoCuatro {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    padding: 30px;
-    font-size: 10px;
+    display: none;
 }
 
 .textoCinco {
-    display: none;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60px;
+    font-size: 15px;
+}
+
+.textoCinco p {
+    font-size: 15px;
 }
 
 .campañaUno iframe{
     display: none;
 }
 
-.campañaDos img{
-    display: flex;
-    width: 200px;
-    height: 200px;
-}   
-
 .campañaTres iframe{
     width: 250px;
-    height: 250px;
+    height: 300px;
+}
+
+.campañaTress {
+    display: none;
 }
 
 .instagramRSS img{
