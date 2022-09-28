@@ -40,7 +40,13 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: repeat(7 1fr);
-  grid-template-areas: "head head head" "header header header" "main main main" "main main main" "main main main" "main main main" "footer footer footer"; }
+  grid-template-areas: "head head head"
+ "header header header"
+ "main main main"
+ "main main main"
+ "main main main"
+ "main main main"
+ "footer footer footer"; }
 
 head {
   grid-area: head; }
@@ -145,7 +151,13 @@ footer {
     background-color: #042f66; }
   .contenedorIndex {
     display: grid;
-    grid-template-areas: "nav nav nav" "head head head" "header header header" "main main main" "main main main" "main main main" "footer footer footer";
+    grid-template-areas: "nav nav nav"
+ "head head head"
+ "header header header"
+ "main main main"
+ "main main main"
+ "main main main"
+ "footer footer footer";
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto auto auto auto auto; }
   head {
@@ -668,7 +680,10 @@ footer {
 @media only screen and (min-width: 0px) and (max-width: 500px) {
   .contenedorUbicacion {
     display: grid;
-    grid-template-areas: "head" "header" "main" "footer";
+    grid-template-areas: "head"
+ "header"
+ "main"
+ "footer";
     grid-template-columns: 100%;
     grid-template-rows: 1fr auto auto auto; }
   .headUbicacion {
@@ -823,7 +838,10 @@ footer {
 @media only screen and (min-width: 0px) and (max-width: 500px) {
   .contenedorContacto {
     display: grid;
-    grid-template-areas: "head" "header" "main" "footer";
+    grid-template-areas: "head"
+ "header"
+ "main"
+ "footer";
     grid-template-columns: 100%;
     grid-template-rows: 1fr auto auto auto; }
   .headContacto {
