@@ -382,10 +382,6 @@ footer {
   .footerServicios {
     display: flex;
     justify-content: space-around; }
-    .footerServicios img {
-      display: flex;
-      justify-content: space-around;
-      width: 20px; }
   .footerServicios p {
     font-size: 12px; }
   .logoImagen img {
@@ -570,7 +566,7 @@ footer {
   padding: 20px; }
 
 .parallax6 {
-  background-image: url("../multimedia/fondoindex.JPG");
+  background-image: url("../multimedia/fondoindex.jpg");
   height: 250px;
   background-attachment: fixed;
   background-position: center;
@@ -699,8 +695,6 @@ footer {
     display: none; }
   .footerUbicacion {
     margin-top: 120px; }
-    .footerUbicacion img {
-      display: none; }
   .instagramRSS img {
     display: none; }
   .facebookRss img {
@@ -801,7 +795,9 @@ footer {
   body {
     background-color: #042f66; }
   .logoImagen img {
-    width: auto; }
+    width: 766px; }
+  .seccionContacto {
+    margin-top: 50px; }
   .footerContacto {
     display: flex;
     flex-direction: row;
@@ -839,14 +835,13 @@ footer {
     grid-area: main; }
   .footerContacto {
     grid-area: footer; }
-  p {
-    font-size: 10px; }
-  h1 {
-    font-size: 12px; }
   .tituloContacto {
+    font-size: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center; }
+  .tituloContacto p {
+    font-size: 15px; }
   .logoImagen img {
     width: 500px; }
   .parallax5 {

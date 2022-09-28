@@ -1,6 +1,6 @@
-@import "variables";
 
 /* inicio contacto */
+
 
 .tituloContacto {
     display: flex;
@@ -118,7 +118,11 @@ body {
 }
 
 .logoImagen img{
-    width: auto;
+    width: 766px;
+}
+
+.seccionContacto {
+    margin-top: 50px;
 }
 
 .footerContacto {
@@ -189,18 +193,15 @@ main {
     grid-area: footer;
 }
 
-p{
-    font-size: 10px;
-}
-
-h1{
-    font-size: 12px;
-}
-
 .tituloContacto {
+    font-size: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.tituloContacto p {
+    font-size: 15px;
 }
 
 .logoImagen img{
