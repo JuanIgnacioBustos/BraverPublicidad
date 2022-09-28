@@ -97,7 +97,8 @@ footer {
   color: #c1cad0;
   padding: 15px;
   margin: 15px;
-  list-style-type: none; }
+  list-style-type: none;
+  text-align: left; }
 
 .instagramRSS img {
   width: 50px;
@@ -199,8 +200,8 @@ footer {
   .cotizacionIndex img {
     display: none; } }
 
-/* cierre vista tablet index */
-/* vista movil index */
+/* cierre vista tablet */
+/* inicio movil */
 @media only screen and (min-width: 0px) and (max-width: 500px) {
   .tituloIndex h1 {
     font-size: 15px; }
@@ -304,7 +305,8 @@ footer {
   color: #c1cad0;
   padding: 15px;
   margin: 15px;
-  list-style-type: none; }
+  list-style-type: none;
+  text-align: left; }
 
 .instagramRSS img {
   width: 50px;
@@ -387,8 +389,8 @@ footer {
     display: flex;
     justify-content: center; } }
 
-/* fin vista tablet servicios */
-/* vista movil servicios */
+/* cierre vista tablet */
+/* inicio movil */
 @media only screen and (min-width: 0px) and (max-width: 500px) {
   body {
     background-color: #042f66; }
@@ -436,7 +438,6 @@ footer {
   .contactoRss img {
     display: none; } }
 
-/* cierre vista movil servicios */
 /* Productos */
 .card-text p {
   color: #c1cad0; }
@@ -472,7 +473,8 @@ footer {
   color: #c1cad0;
   padding: 15px;
   margin: 15px;
-  list-style-type: none; }
+  list-style-type: none;
+  text-align: left; }
 
 .instagramRSS img {
   width: 50px;
@@ -535,8 +537,8 @@ footer {
     display: flex;
     justify-content: center; } }
 
-/* cierre vista tablet productos */
-/* inicio vista movil productos */
+/* cierre vista tablet */
+/* inicio movil */
 @media only screen and (min-width: 0px) and (max-width: 500px) {
   body {
     background-color: #042f66; }
@@ -608,7 +610,8 @@ footer {
   color: #c1cad0;
   padding: 15px;
   margin: 15px;
-  list-style-type: none; }
+  list-style-type: none;
+  text-align: left; }
 
 .instagramRSS img {
   width: 50px;
@@ -689,8 +692,8 @@ footer {
   .contactoRss img {
     display: none; } }
 
-/* cierre vista tablet ubicacion */
-/* inicio movil ubicacion */
+/* cierre vista tablet */
+/* inicio movil */
 @media only screen and (min-width: 0px) and (max-width: 500px) {
   .contenedorUbicacion {
     display: grid;
@@ -733,7 +736,6 @@ footer {
   .contactoRss img {
     display: none; } }
 
-/* cierre vista movil ubicacion */
 /* inicio contacto */
 .tituloContacto {
   display: flex;
@@ -776,7 +778,8 @@ footer {
   color: #c1cad0;
   padding: 15px;
   margin: 15px;
-  list-style-type: none; }
+  list-style-type: none;
+  text-align: left; }
 
 .instagramRSS img {
   width: 50px;
@@ -853,7 +856,7 @@ footer {
     display: none; } }
 
 /* cierre vista tablet */
-/* inicio movil contacto */
+/* inicio movil */
 @media only screen and (min-width: 0px) and (max-width: 500px) {
   .contenedorContacto {
     display: grid;
