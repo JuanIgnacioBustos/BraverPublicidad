@@ -1,7 +1,6 @@
-
-*{
+*{  
     margin: 0%;
-    padding: 0%;
+    padding:0%;
 }
 
 html{
@@ -9,21 +8,21 @@ html{
 }
 
 body{
-        background-color: #042f66;
+        background-color: $azul;
 }
 
-p{ 
+/* p{ 
         font-family: 'Oswald', sans-serif;
         font-size: 20px; 
         color:$blanco;
-}
+} */
 
 
 h1{
         color:$blanco;
         text-align:center;
         font-weight: bold;
-        font-size: 100px;
+        font-size: 80px;
         font-family: 'Oswald', sans-serif;
 }
 
@@ -291,7 +290,7 @@ h1 {
 
 
 .tituloIndex h1 {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .textoUno {
