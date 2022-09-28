@@ -39,6 +39,7 @@
     padding: 15px;
     margin: 15px;
     list-style-type: none;
+    text-align: left;
 }
 
 .instagramRSS img{
@@ -165,9 +166,9 @@ h1 {
     display: none;
 }
 
-}/* cierre vista tablet ubicacion */
+}/* cierre vista tablet */
 
-/* inicio movil ubicacion */
+/* inicio movil */
 
 @media only screen and (min-width:0px) and (max-width:500px){
 
@@ -243,4 +244,3 @@ main {
 }
 
 }
-/* cierre vista movil ubicacion */

@@ -40,6 +40,7 @@
     padding: 15px;
     margin: 15px;
     list-style-type: none;
+    text-align: left;
 }
 
 .instagramRSS img{
@@ -140,9 +141,12 @@ body {
     justify-content: center;
 }
 
-}/* cierre vista tablet productos */
 
-/* inicio vista movil productos */
+}
+/* cierre vista tablet */
+
+/* inicio movil */
+
 @media only screen and (min-width:0px) and (max-width:500px){
 
 body{
