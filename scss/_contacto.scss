@@ -10,6 +10,9 @@
 
 .logoImagen{
     margin: auto;
+    }
+.tituloContacto p {
+    color: $blanco
 }
 
 .seccionContacto {
@@ -43,7 +46,8 @@
 	display: flex;
 	flex-direction:row;
 	justify-content:end;}
-    .titulofooter{
+    .titulofooter p {
+    color: $blanco;
     padding: 15px;
     margin: 15px;
     list-style-type: none;

@@ -11,18 +11,18 @@ body{
         background-color: $azul;
 }
 
-/* p{ 
+p{ 
         font-family: 'Oswald', sans-serif;
-        font-size: 20px; 
+        font-size: 25px; 
         color:$blanco;
-} */
+}
 
 
 h1{
         color:$blanco;
         text-align:center;
         font-weight: bold;
-        font-size: 80px;
+        font-size: 50px;
         font-family: 'Oswald', sans-serif;
 }
 
@@ -85,7 +85,6 @@ footer {
     text-align: center;
     color:  $blanco;
     padding: 40px;
-    font-size: 75px;
     word-spacing: 5px;
 }
 
@@ -93,7 +92,6 @@ footer {
     text-align: center;
     color:  $blanco;
     padding: 40px;
-    font-size: 75px;
 }
 
 .textoSeis {
@@ -117,7 +115,8 @@ footer {
 	display: flex;
 	flex-direction:row;
 	justify-content:end;}
-    .titulofooter{
+    .titulofooter p {
+    color: $blanco;
     padding: 15px;
     margin: 15px;
     list-style-type: none;

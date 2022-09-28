@@ -11,6 +11,10 @@
 
 .logoImagen img{
     margin: auto;
+    }
+
+.tituloUbicacion p {
+    color: $blanco
 }
 
 .mapa {
@@ -34,7 +38,8 @@
 	display: flex;
 	flex-direction:row;
 	justify-content:end;}
-    .titulofooter{
+    .titulofooter p {
+    color: $blanco;
     padding: 15px;
     margin: 15px;
     list-style-type: none;
