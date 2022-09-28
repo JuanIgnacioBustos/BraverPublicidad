@@ -342,14 +342,14 @@ p{
     margin: 40px;
 }
  */
-.parallax3 {    background-image: url("../multimedia/parallaxservicios1.jpg");
+/* .parallax3 {    background-image: url("../multimedia/parallaxservicios1.jpg");
     height: 250px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: bottom 5px;
-}
+} */
 
 /* .sectionUno {
     display: flex;
@@ -690,16 +690,8 @@ li {
 
 /* inicio Productos */
 
-.parallax4 {    background-image: url("../multimedia/trayectoria.JPG");
-    height: 420px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: bottom 5px;
-}
 
-.footerProductos {
+/* .footerProductos {
 	display: flex;
 	flex-direction:row;
 	justify-content:end;
@@ -732,9 +724,10 @@ li {
     width: 50px;
     padding: 5px;
     margin: 5px;
-}
+} */
 
-.card-body {
+/* .card-body {
+    border-color: #042f66;
     background: rgb(4,47,102);
     background: linear-gradient(0deg, rgba(4,47,102,0.9444152661064426) 0%, rgba(26,94,227,1) 30%);
 }
@@ -745,26 +738,26 @@ li {
 
 .btn-primary{
     color: #042f66;
-}
+} */
 
-.footerProductos {
+/* .footerProductos {
     background: rgb(4,47,102);
     background: linear-gradient(180deg, rgba(4,47,102,0.9444152661064426) 0%, rgba(26,94,227,1) 30%);
-}
+} */
 
-.parallax4 {    background-image: url("../multimedia/parallaxproductos1.jpg");
+/* .parallax4 {    background-image: url("../multimedia/parallaxproductos1.jpg");
     height: 250px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: bottom 5px;
-}
+} */
 
 /* cierre productos */
 /* inicio vista tablet productos */
 
-@media only screen and (min-width: 768px) and (max-width:1023px){
+/* @media only screen and (min-width: 768px) and (max-width:1023px){
 
 body {
     background-color: #042f66;
@@ -832,10 +825,10 @@ h1 {
     display: none;
 }
 
-}/* cierre vista tablet productos */
+} *//* cierre vista tablet productos */
 
 /* inicio vista movil productos */
-@media only screen and (min-width:0px) and (max-width:500px){
+/* @media only screen and (min-width:0px) and (max-width:500px){
 
 body{
     background-color: #042f66;
@@ -936,11 +929,11 @@ h1 {
     display: none;
 }
 
-}/* cierre vista movil productos */
+} *//* cierre vista movil productos */
 
 /* inicio contacto */
 
-.tituloContacto {
+/* .tituloContacto {
     display: flex;
     justify-content: center;
     margin: 50px;
@@ -952,17 +945,17 @@ h1 {
     justify-content: center;
     margin: 50px;
     padding: 50px;
-}
+} */
 
-.parallax5 {    background-image: url("../multimedia/compromiso.jpg");
+/* .parallax5 {    background-image: url("../multimedia/compromiso.jpg");
     height: 250px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: bottom 5px;
-}
-
+} */
+/* 
 .footerContacto {
 	display: flex;
 	flex-direction:row;
@@ -1003,18 +996,19 @@ h1 {
     background: rgb(4,47,102);
     background: linear-gradient(180deg, rgba(4,47,102,0.9444152661064426) 0%, rgba(26,94,227,1) 30%);
 }
-
-.form-label {
+ */
+/* .form-label {
     color: #c1cad0;
 }
+
 
 .form-check-label {
     color: #c1cad0;
-}
+} */
 
 /* inicio tablet contacto */
 
-@media only screen and (min-width: 768px) and (max-width:1023px){
+/* @media only screen and (min-width: 768px) and (max-width:1023px){
 
 body {
     background-color: #042f66;
@@ -1092,12 +1086,12 @@ h1 {
     display: none;
 }
 
-}/* cierre vista tablet */
+} *//* cierre vista tablet */
 
 /* inicio movil contacto */
 
 
-@media only screen and (min-width:0px) and (max-width:500px){
+/* @media only screen and (min-width:0px) and (max-width:500px){
 
     .contenedorContacto {
     display: grid;
@@ -1169,11 +1163,11 @@ h1{
     display: none;
 }
 
-}/* cierre vista movil contacto */
+} *//* cierre vista movil contacto */
 
 
 /* inicio ubicacion */
-
+/* 
 .tituloUbicacion {
     display: flex;
     justify-content: center;
@@ -1233,14 +1227,14 @@ h1{
 
 /* gradiente */
 
-.footerUbicacion {
+/* .footerUbicacion {
     background: rgb(4,47,102);
     background: linear-gradient(180deg, rgba(4,47,102,0.9444152661064426) 0%, rgba(26,94,227,1) 30%);
-}
+} */ 
 
 /* vista tablet ubicacion */
 
-@media only screen and (min-width: 768px) and (max-width:1023px){
+/* @media only screen and (min-width: 768px) and (max-width:1023px){
 
 body {
     background-color: #042f66;
@@ -1326,10 +1320,10 @@ display: none;
     display: none;
 }
 
-}/* cierre vista tablet ubicacion */
+} *//* cierre vista tablet ubicacion */
 
 /* inicio movil ubicacion */
-
+/* 
 @media only screen and (min-width:0px) and (max-width:500px){
 
 .contenedorUbicacion {
@@ -1415,5 +1409,5 @@ h1 {
     display: none;
 }
 
-}
+} */
 /* cierre vista movil ubicacion */

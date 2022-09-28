@@ -1,6 +1,6 @@
-@import "variables";
 
 /* inicio contacto */
+
 
 .tituloContacto {
     display: flex;
@@ -39,7 +39,7 @@
 	display: flex;
 	flex-direction:row;
 	justify-content:end;}
-    li{
+    .titulofooter{
     padding: 15px;
     margin: 15px;
     list-style-type: none;
@@ -111,65 +111,37 @@
 
 /* inicio tablet contacto */
 
-@media only screen and (min-width: 768px) and (max-width:1023px){
+@media only screen and (min-width: 766px) and (max-width:1023px){
 
 body {
     background-color: #042f66;
 }
 
-.contenedorContacto {
-    display: grid;
-    grid-area: 
-    "head head"
-    "header header"
-    "main main"
-    "main main"
-    "main main"
-    "footer footer";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr auto auto auto auto;
-}
-
-.headContacto {
-    grid-area: head;
-}
-
-header {
-    grid-area: header;
-}
-
-main {
-    grid-area: main;
-}
-
-.footerContacto {
-    grid-area: footer;
-}
-
-.parallax5 {
-    display: none;
-}
-
-p {
-    font-size: 15px;
-}
-
-h1 {
-    font-size: 18px;
-}
-
 .logoImagen img{
-    width: 900px;
+    width: 766px;
+}
+
+.seccionContacto {
+    margin-top: 50px;
 }
 
 .footerContacto {
     display: flex;
     flex-direction:row;
-    justify-content:end;
-    li{
+    justify-content:center;
+    p{
     padding: 30px;
     list-style-type: none;
+    margin-top: 40px;
     }
+}
+
+.tituloContacto p {
+    font-size: 15px;
+}
+
+.parallax5 {
+    display: none;
 }
 
 .instagramRSS img{
@@ -221,18 +193,15 @@ main {
     grid-area: footer;
 }
 
-p{
-    font-size: 10px;
-}
-
-h1{
-    font-size: 12px;
-}
-
 .tituloContacto {
+    font-size: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.tituloContacto p {
+    font-size: 15px;
 }
 
 .logoImagen img{
