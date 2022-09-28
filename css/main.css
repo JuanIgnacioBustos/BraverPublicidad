@@ -9,16 +9,16 @@ html {
 body {
   background-color: #042f66; }
 
-/* p{ 
-        font-family: 'Oswald', sans-serif;
-        font-size: 20px; 
-        color:$blanco;
-} */
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  color: #c1cad0; }
+
 h1 {
   color: #c1cad0;
   text-align: center;
   font-weight: bold;
-  font-size: 80px;
+  font-size: 50px;
   font-family: 'Oswald', sans-serif; }
 
 a {
@@ -54,21 +54,19 @@ main {
 footer {
   grid-area: footer; }
 
-.logoImagen {
-  margin: auto; }
+.logoImagen img {
+  margin: 0; }
 
 .textoUno {
   text-align: center;
   color: #c1cad0;
   padding: 40px;
-  font-size: 75px;
   word-spacing: 5px; }
 
 .textoDos {
   text-align: center;
   color: #c1cad0;
-  padding: 40px;
-  font-size: 75px; }
+  padding: 40px; }
 
 .textoSeis {
   color: #c1cad0;
@@ -89,7 +87,8 @@ footer {
   flex-direction: row;
   justify-content: end; }
 
-.titulofooter {
+.titulofooter p {
+  color: #c1cad0;
   padding: 15px;
   margin: 15px;
   list-style-type: none; }
@@ -252,7 +251,6 @@ footer {
   flex-direction: column;
   color: #c1cad0;
   text-align: center;
-  font-size: 60px;
   padding: 50px; }
 
 .textoCinco {
@@ -290,7 +288,8 @@ footer {
   flex-direction: row;
   justify-content: end; }
 
-.titulofooter {
+.titulofooter p {
+  color: #c1cad0;
   padding: 15px;
   margin: 15px;
   list-style-type: none; }
@@ -427,6 +426,9 @@ footer {
 
 /* cierre vista movil servicios */
 /* Productos */
+.card-text p {
+  color: #c1cad0; }
+
 .card-body {
   border-color: #042f66;
   background: #042f66;
@@ -454,7 +456,8 @@ footer {
   flex-direction: row;
   justify-content: end; }
 
-.titulofooter {
+.titulofooter p {
+  color: #c1cad0;
   padding: 15px;
   margin: 15px;
   list-style-type: none; }
@@ -565,6 +568,9 @@ footer {
   padding: 20px;
   font-size: 20px; }
 
+.tituloUbicacion p {
+  color: #c1cad0; }
+
 .mapa {
   display: flex;
   justify-content: center;
@@ -586,7 +592,8 @@ footer {
   flex-direction: row;
   justify-content: end; }
 
-.titulofooter {
+.titulofooter p {
+  color: #c1cad0;
   padding: 15px;
   margin: 15px;
   list-style-type: none; }
@@ -718,6 +725,9 @@ footer {
   justify-content: center;
   margin: 50px; }
 
+.tituloContacto p {
+  color: #c1cad0; }
+
 .seccionContacto {
   display: flex;
   align-items: center;
@@ -747,7 +757,8 @@ footer {
   flex-direction: row;
   justify-content: end; }
 
-.titulofooter {
+.titulofooter p {
+  color: #c1cad0;
   padding: 15px;
   margin: 15px;
   list-style-type: none; }

@@ -35,7 +35,6 @@
     flex-direction: column;
     color:#c1cad0 ;
     text-align: center;
-    font-size: 60px;
     padding: 50px;
 }
 
@@ -77,7 +76,8 @@
 	display: flex;
 	flex-direction:row;
 	justify-content:end;}
-    .titulofooter{
+    .titulofooter p{
+    color: $blanco;
     padding: 15px;
     margin: 15px;
     list-style-type: none;
