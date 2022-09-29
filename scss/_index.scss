@@ -77,10 +77,6 @@ footer {
 }
 
 
-.logoImagen img{
-    margin: 0;
-}
-
 .textoUno {
     text-align: center;
     color:  $blanco;
@@ -114,7 +110,7 @@ footer {
     background: $gradientefooter;
 	display: flex;
 	flex-direction:row;
-	justify-content:left;}
+	justify-content:center;}
     .titulofooter p {
     color: $blanco;
     padding: 15px;
@@ -252,6 +248,7 @@ footer {
 .footerIndex {
     display: flex; 
     justify-content: center;
+    margin-top: 30px;
 }
 
 .textoUno p {
