@@ -3,12 +3,10 @@
     padding:0%;
 }
 
-html{
-        font-size: 62,5%;
-}
-
-body{
-        background-color: $azul;
+html, body 
+{ 
+    height: 100%;
+    overflow: hidden
 }
 
 p{ 
@@ -114,13 +112,14 @@ footer {
     background: $gradientefooter;
 	display: flex;
 	flex-direction:row;
-	justify-content:end;}
+	justify-content:left;}
     .titulofooter p {
     color: $blanco;
     padding: 15px;
     margin: 15px;
     list-style-type: none;
     text-align: left;
+    font-size: 12px;
 }
 
 .instagramRSS img{
