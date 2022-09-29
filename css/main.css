@@ -95,22 +95,26 @@ footer {
 .instagramRSS img {
   width: 50px;
   padding: 5px;
-  margin: 5px; }
+  margin: 5px;
+  justify-content: end; }
 
 .facebookRss img {
   width: 50px;
   padding: 5px;
-  margin: 5px; }
+  margin: 5px;
+  justify-content: end; }
 
 .whatsappRss img {
   width: 50px;
   padding: 5px;
-  margin: 5px; }
+  margin: 5px;
+  justify-content: end; }
 
 .contactoRss img {
   width: 50px;
   padding: 5px;
-  margin: 5px; }
+  margin: 5px;
+  justify-content: end; }
 
 .cotizacionIndex img {
   width: 500px;
@@ -299,22 +303,26 @@ footer {
 .instagramRSS img {
   width: 50px;
   padding: 5px;
-  margin: 5px; }
+  margin: 5px;
+  justify-content: end; }
 
 .facebookRss img {
   width: 50px;
   padding: 5px;
-  margin: 5px; }
+  margin: 5px;
+  justify-content: end; }
 
 .whatsappRss img {
   width: 50px;
   padding: 5px;
-  margin: 5px; }
+  margin: 5px;
+  justify-content: end; }
 
 .contactoRss img {
   width: 50px;
   padding: 5px;
-  margin: 5px; }
+  margin: 5px;
+  justify-content: end; }
 
 .bg-lav {
   background: #042f66;
@@ -468,22 +476,26 @@ footer {
 .instagramRSS img {
   width: 50px;
   padding: 5px;
-  margin: 5px; }
+  margin: 5px;
+  justify-content: end; }
 
 .facebookRss img {
   width: 50px;
   padding: 5px;
-  margin: 5px; }
+  margin: 5px;
+  justify-content: end; }
 
 .whatsappRss img {
   width: 50px;
   padding: 5px;
-  margin: 5px; }
+  margin: 5px;
+  justify-content: end; }
 
 .contactoRss img {
   width: 50px;
   padding: 5px;
-  margin: 5px; }
+  margin: 5px;
+  justify-content: end; }
 
 .bg-lav {
   background: #042f66;
@@ -571,6 +583,9 @@ footer {
   padding: 20px;
   font-size: 20px; }
 
+.logoImagen img {
+  margin: auto; }
+
 .tituloUbicacion p {
   color: #c1cad0; }
 
@@ -593,7 +608,7 @@ footer {
   background: linear-gradient(180deg, rgba(4, 47, 102, 0.944415) 0%, #1a5ee3 30%);
   display: flex;
   flex-direction: row;
-  justify-content: left; }
+  justify-content: center; }
 
 .titulofooter p {
   color: #c1cad0;
@@ -606,22 +621,26 @@ footer {
 .instagramRSS img {
   width: 50px;
   padding: 5px;
-  margin: 5px; }
+  margin: 5px;
+  justify-content: end; }
 
 .facebookRss img {
   width: 50px;
   padding: 5px;
-  margin: 5px; }
+  margin: 5px;
+  justify-content: end; }
 
 .whatsappRss img {
   width: 50px;
   padding: 5px;
-  margin: 5px; }
+  margin: 5px;
+  justify-content: end; }
 
 .contactoRss img {
   width: 50px;
   padding: 5px;
-  margin: 5px; }
+  margin: 5px;
+  justify-content: end; }
 
 .cotizacionIndex img {
   width: 500px;
@@ -730,6 +749,9 @@ footer {
   justify-content: center;
   margin: 50px; }
 
+.logoImagen {
+  margin: auto; }
+
 .tituloContacto p {
   color: #c1cad0; }
 
@@ -773,22 +795,26 @@ footer {
 .instagramRSS img {
   width: 50px;
   padding: 5px;
-  margin: 5px; }
+  margin: 5px;
+  justify-content: end; }
 
 .facebookRss img {
   width: 50px;
   padding: 5px;
-  margin: 5px; }
+  margin: 5px;
+  justify-content: end; }
 
 .whatsappRss img {
   width: 50px;
   padding: 5px;
-  margin: 5px; }
+  margin: 5px;
+  justify-content: end; }
 
 .contactoRss img {
   width: 50px;
   padding: 5px;
-  margin: 5px; }
+  margin: 5px;
+  justify-content: end; }
 
 .cotizacionIndex img {
   width: 500px;
