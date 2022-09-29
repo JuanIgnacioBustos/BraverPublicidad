@@ -61,9 +61,6 @@ main {
 footer {
   grid-area: footer; }
 
-.logoImagen img {
-  margin: 0; }
-
 .textoUno {
   text-align: center;
   color: #c1cad0;
@@ -92,7 +89,7 @@ footer {
   background: linear-gradient(180deg, rgba(4, 47, 102, 0.944415) 0%, #1a5ee3 30%);
   display: flex;
   flex-direction: row;
-  justify-content: left; }
+  justify-content: center; }
 
 .titulofooter p {
   color: #c1cad0;
@@ -183,7 +180,8 @@ footer {
     display: none; }
   .footerIndex {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    margin-top: 30px; }
   .textoUno p {
     display: flex;
     flex-direction: column;
@@ -300,7 +298,7 @@ footer {
   background: linear-gradient(180deg, rgba(4, 47, 102, 0.944415) 0%, #1a5ee3 30%);
   display: flex;
   flex-direction: row;
-  justify-content: left; }
+  justify-content: center; }
 
 .titulofooter p {
   color: #c1cad0;
@@ -469,7 +467,7 @@ footer {
   background: linear-gradient(180deg, rgba(4, 47, 102, 0.944415) 0%, #1a5ee3 30%);
   display: flex;
   flex-direction: row;
-  justify-content: left; }
+  justify-content: center; }
 
 .titulofooter p {
   color: #c1cad0;
@@ -777,7 +775,7 @@ footer {
   background: linear-gradient(180deg, rgba(4, 47, 102, 0.944415) 0%, #1a5ee3 30%);
   display: flex;
   flex-direction: row;
-  justify-content: left; }
+  justify-content: center; }
 
 .titulofooter p {
   color: #c1cad0;
