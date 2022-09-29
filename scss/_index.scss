@@ -3,10 +3,12 @@
     padding:0%;
 }
 
-html, body 
-{ 
-    height: 100%;
-    overflow: hidden
+html{
+        font-size: 62,5%;
+}
+
+body{
+        background-color: $azul;
 }
 
 p{ 
@@ -119,7 +121,6 @@ footer {
     margin: 15px;
     list-style-type: none;
     text-align: left;
-    font-size: 12px;
 }
 
 .instagramRSS img{
