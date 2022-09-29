@@ -4,9 +4,11 @@
   margin: 0%;
   padding: 0%; }
 
-html, body {
-  height: 100%;
-  overflow: hidden; }
+html {
+  font-size: 62,5%; }
+
+body {
+  background-color: #042f66; }
 
 p {
   font-family: 'Oswald', sans-serif;
@@ -91,8 +93,7 @@ footer {
   padding: 15px;
   margin: 15px;
   list-style-type: none;
-  text-align: left;
-  font-size: 12px; }
+  text-align: left; }
 
 .instagramRSS img {
   width: 50px;
