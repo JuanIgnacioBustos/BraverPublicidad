@@ -6,3 +6,29 @@ $azulclaro: rgb(4,47,102);
 $gradientefooter: linear-gradient(180deg, rgba(4,47,102,0.9444152661064426) 0%, rgba(26,94,227,1) 30%);
 $gradientemenu: linear-gradient(0deg, rgba(4,47,102,0.9444152661064426) 0%, rgba(26,94,227,1) 30%);
 
+/*  map footer */
+
+$estilosfooter:(
+    display : flex,
+    direccion : row,
+    posicion : end,
+);
+
+/* mixins */
+
+@mixin estilofooter {
+    padding: 15px;
+    margin: 15px;
+    list-style-type: none;
+    text-align: left;
+    font-size: 12px;
+}
+
+@mixin estiloparallax {
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: bottom 5px;
+}
