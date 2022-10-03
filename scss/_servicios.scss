@@ -62,45 +62,31 @@
 }
 
 .parallax3 {    background-image: url("../multimedia/parallaxservicios1.jpg");
-    height: 250px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: bottom 5px;
+    @include estiloparallax;
 }
 
 .footerServicios {
     background: $azulclaro;
     background: $gradientefooter;
-	display: flex;
-	flex-direction:row;
-	justify-content:end;}
+    display: map-get($estilosfooter , display);
+    flex-direction: map-get($estilosfooter , direccion);
+    justify-content: map-get($estilosfooter , posicion);}
     .titulofooter p{
     color: $blanco;
-    padding: 15px;
-    margin: 15px;
-    list-style-type: none;
-    text-align: left;
-    font-size: 12px;
+    @include estilofooter;
 }
 
+/* extend */
 .instagramRSS img{
-    width: 50px;
-    padding: 5px;
-    margin: 5px;    
+    @extend .contactoRss; 
 }
 
 .facebookRss img{
-    width: 50px;
-    padding: 5px;
-    margin: 5px;
+    @extend .contactoRss; 
 }
 
 .whatsappRss img{
-    width: 50px;
-    padding: 5px;
-    margin: 5px;
+    @extend .contactoRss; 
 }
 
 .contactoRss img{
@@ -108,6 +94,7 @@
     padding: 5px;
     margin: 5px;
 }
+/* fin extend */
 
 .bg-lav{
     background: $azulclaro;
