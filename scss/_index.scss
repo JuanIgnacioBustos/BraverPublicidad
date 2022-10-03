@@ -26,19 +26,6 @@ h1{
         font-family: 'Oswald', sans-serif;
 }
 
-a{
-        text-decoration: none;
-        color:$blanco;
-}
-
-li{
-        color:$blanco;
-}
-
-ul{
-    color:$blanco;
-    list-style-type: none;
-}
 
 header{
         position:sticky;
@@ -144,7 +131,7 @@ footer {
 }
 
 .bg-lav{
-    background: $azulclaro;
+    background: $blanco;
     background: $gradientemenu}
 
 .btn-primary{
@@ -165,12 +152,20 @@ footer {
     color: $blanco;
 }
 
+.nav-item {
+    color: $blanco;
+}
+
+.nav-item a {
+    color: $blanco;
+}
+
 .navbar-nav{
 .nav-link.active{
 .navbar-nav{
 .show>{
 .nav-link {
-    color: $azul;
+    color: $blanco;
                 }
             }
         }

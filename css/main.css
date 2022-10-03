@@ -24,17 +24,6 @@ h1 {
   font-size: 50px;
   font-family: 'Oswald', sans-serif; }
 
-a {
-  text-decoration: none;
-  color: #c1cad0; }
-
-li {
-  color: #c1cad0; }
-
-ul {
-  color: #c1cad0;
-  list-style-type: none; }
-
 header {
   position: sticky;
   top: 0; }
@@ -102,7 +91,7 @@ footer {
   margin: 15px;
   list-style-type: none;
   text-align: left;
-  font-size: 12px; }
+  font-size: 10px; }
 
 .instagramRSS img {
   width: 50px;
@@ -130,7 +119,7 @@ footer {
   margin: 5px; }
 
 .bg-lav {
-  background: #042f66;
+  background: #c1cad0;
   background: linear-gradient(0deg, rgba(4, 47, 102, 0.944415) 0%, #1a5ee3 30%); }
 
 .btn-primary {
@@ -146,8 +135,14 @@ footer {
 .nav-link {
   color: #c1cad0; }
 
+.nav-item {
+  color: #c1cad0; }
+
+.nav-item a {
+  color: #c1cad0; }
+
 .navbar-nav .nav-link.active .navbar-nav .show > .nav-link {
-  color: #042f66; }
+  color: #c1cad0; }
 
 /* vista tablet index */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -312,7 +307,7 @@ footer {
   margin: 15px;
   list-style-type: none;
   text-align: left;
-  font-size: 12px; }
+  font-size: 10px; }
 
 .instagramRSS img {
   width: 50px;
@@ -482,7 +477,7 @@ footer {
   margin: 15px;
   list-style-type: none;
   text-align: left;
-  font-size: 12px; }
+  font-size: 10px; }
 
 .instagramRSS img {
   width: 50px;
@@ -623,7 +618,7 @@ footer {
   margin: 15px;
   list-style-type: none;
   text-align: left;
-  font-size: 12px; }
+  font-size: 10px; }
 
 .instagramRSS img {
   width: 50px;
@@ -791,7 +786,7 @@ footer {
   margin: 15px;
   list-style-type: none;
   text-align: left;
-  font-size: 12px; }
+  font-size: 10px; }
 
 .instagramRSS img {
   width: 50px;
