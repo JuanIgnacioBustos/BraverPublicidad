@@ -32,3 +32,9 @@ $estilosfooter:(
     background-size: cover;
     margin: bottom 5px;
 }
+
+@mixin imagenesfooter {
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
