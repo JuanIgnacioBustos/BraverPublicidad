@@ -7,8 +7,8 @@ html{
         font-size: 62,5%;
 }
 
-body{
-        background-color: $azul;
+body {
+    background-color: #042f66;
 }
 
 p{ 
@@ -77,6 +77,10 @@ footer {
 }
 
 
+.contenedorIndex {
+    background-color: #042f66;
+}
+
 .textoUno {
     text-align: center;
     color:  $blanco;
@@ -116,25 +120,22 @@ footer {
     @include estilofooter;
 }
 
-/* extend */
 .instagramRSS img{
-    @extend .contactoRss; 
+    @include imagenesfooter;
 }
 
 .facebookRss img{
-    @extend .contactoRss; 
+    @include imagenesfooter;
 }
 
 .whatsappRss img{
-    @extend .contactoRss; 
+    @include imagenesfooter;
 }
 
 .contactoRss img{
-    width: 50px;
-    padding: 5px;
-    margin: 5px;
+    @include imagenesfooter;
 }
-/* fin extend */
+
 
 .cotizacionIndex img{
     width: 500px;

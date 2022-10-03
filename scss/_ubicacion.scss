@@ -38,25 +38,23 @@
     @include estilofooter;
 }
 
-/* extend */
+
 .instagramRSS img{
-    @extend .contactoRss; 
+    @include imagenesfooter;
 }
 
 .facebookRss img{
-    @extend .contactoRss; 
+    @include imagenesfooter; 
 }
 
 .whatsappRss img{
-    @extend .contactoRss; 
+    @include imagenesfooter; 
 }
 
 .contactoRss img{
-    width: 50px;
-    padding: 5px;
-    margin: 5px;
+    @include imagenesfooter;
 }
-/* fin extend */
+
 
 .bg-lav{
     background: $azulclaro;
