@@ -2,6 +2,10 @@
 
 /* Productos */
 
+.card {
+    margin-top: 50px;
+}
+
 .card-text p{
     color: $blanco;
 }
@@ -15,12 +19,14 @@
     color: $blanco;
 }
 
+
 .btn-primary{
     color: $azul;
 }
 
 .parallax4 {    background-image: url("../multimedia/parallaxproductos1.jpg");
     @include estiloparallax;
+    margin-top: 80px;
 }
 
 .footerProductos {
@@ -34,6 +40,7 @@
     padding: 15px;
     @include estilofooter;
 }
+
 
 .instagramRSS img{
     @include imagenesfooter;
@@ -86,6 +93,8 @@
         }
     }
 }
+
+
 
 /* cierre productos */
 /* inicio vista tablet productos */

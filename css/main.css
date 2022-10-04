@@ -280,7 +280,8 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: bottom 5px; }
+  margin: bottom 5px;
+  margin-top: 25px; }
 
 .footerServicios {
   background: #042f66;
@@ -428,6 +429,9 @@ footer {
     display: none; } }
 
 /* Productos */
+.card {
+  margin-top: 50px; }
+
 .card-text p {
   color: #c1cad0; }
 
@@ -448,7 +452,8 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: bottom 5px; }
+  margin: bottom 5px;
+  margin-top: 80px; }
 
 .footerProductos {
   background: #042f66;
@@ -570,18 +575,11 @@ footer {
   display: flex;
   justify-content: center;
   padding: 20px;
-  font-size: 20px; }
+  font-size: 20px;
+  text-align: center; }
 
 .logoImagen img {
   margin: auto; }
-
-.tituloUbicacion p {
-  color: #c1cad0; }
-
-.mapa {
-  display: flex;
-  justify-content: center;
-  padding: 20px; }
 
 .parallax6 {
   background-image: url("../multimedia/fondoindex.jpg");

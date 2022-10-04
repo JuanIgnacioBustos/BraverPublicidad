@@ -63,6 +63,7 @@
 
 .parallax3 {    background-image: url("../multimedia/parallaxservicios1.jpg");
     @include estiloparallax;
+    margin-top: 25px;
 }
 
 .footerServicios {

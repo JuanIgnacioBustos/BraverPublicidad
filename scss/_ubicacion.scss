@@ -7,20 +7,11 @@
     justify-content: center;
     padding: 20px;
     font-size: 20px;
+    text-align: center;
 }
 
 .logoImagen img{
     margin: auto;
-    }
-
-.tituloUbicacion p {
-    color: $blanco
-}
-
-.mapa {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
 }
 
 .parallax6 {    background-image: url("../multimedia/fondoindex.jpg");
