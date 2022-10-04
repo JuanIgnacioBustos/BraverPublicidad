@@ -81,8 +81,8 @@ footer {
 
 .titulofooter p {
   color: #c1cad0;
-  padding: 15px;
-  margin: 15px;
+  padding: 5px;
+  margin: 5px;
   list-style-type: none;
   text-align: left;
   font-size: 10px; }
@@ -292,8 +292,8 @@ footer {
 
 .titulofooter p {
   color: #c1cad0;
-  padding: 15px;
-  margin: 15px;
+  padding: 5px;
+  margin: 5px;
   list-style-type: none;
   text-align: left;
   font-size: 10px; }
@@ -465,8 +465,8 @@ footer {
 .titulofooter p {
   color: #c1cad0;
   padding: 15px;
-  padding: 15px;
-  margin: 15px;
+  padding: 5px;
+  margin: 5px;
   list-style-type: none;
   text-align: left;
   font-size: 10px; }
@@ -576,7 +576,8 @@ footer {
   justify-content: center;
   padding: 20px;
   font-size: 20px;
-  text-align: center; }
+  text-align: center;
+  margin-top: 35px; }
 
 .logoImagen img {
   margin: auto; }
@@ -590,6 +591,15 @@ footer {
   background-size: cover;
   margin: bottom 5px; }
 
+.textoClientes {
+  text-align: center;
+  color: #c1cad0;
+  padding: 40px;
+  margin-top: 50px; }
+
+.caruselclientes {
+  margin-top: 35px; }
+
 .footerUbicacion {
   background: #042f66;
   background: linear-gradient(180deg, rgba(4, 47, 102, 0.944415) 0%, #1a5ee3 30%);
@@ -599,8 +609,8 @@ footer {
 
 .titulofooter p {
   color: #c1cad0;
-  padding: 15px;
-  margin: 15px;
+  padding: 5px;
+  margin: 5px;
   list-style-type: none;
   text-align: left;
   font-size: 10px; }
@@ -625,13 +635,20 @@ footer {
   padding: 5px;
   margin: 5px; }
 
+a {
+  color: #c1cad0;
+  font-size: 18px; }
+
+.card-title1 {
+  color: #c1cad0;
+  font-size: 40px; }
+
 .bg-lav {
   background: #042f66;
   background: linear-gradient(0deg, rgba(4, 47, 102, 0.944415) 0%, #1a5ee3 30%); }
 
-.btn-primary {
-  background-color: #c1cad0;
-  border-color: #c1cad0;
+.btn-primarycl {
+  background-color: white;
   transition: all 0.25s ease-in-out; }
 
 :not(.btn-check) .btn:hover {
@@ -764,8 +781,8 @@ footer {
 
 .titulofooter p {
   color: #c1cad0;
-  padding: 15px;
-  margin: 15px;
+  padding: 5px;
+  margin: 5px;
   list-style-type: none;
   text-align: left;
   font-size: 10px; }

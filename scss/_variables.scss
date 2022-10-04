@@ -11,14 +11,14 @@ $gradientemenu: linear-gradient(0deg, rgba(4,47,102,0.9444152661064426) 0%, rgba
 $estilosfooter:(
     display : flex,
     direccion : row,
-    posicion : end,
+    posicion : end, 
 );
 
 /* mixins */
 
 @mixin estilofooter {
-    padding: 15px;
-    margin: 15px;
+    padding: 5px;
+    margin: 5px;
     list-style-type: none;
     text-align: left;
     font-size: 10px;
