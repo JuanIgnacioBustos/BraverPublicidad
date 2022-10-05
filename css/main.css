@@ -221,7 +221,7 @@ footer {
 
 /* cierre de vista movil */
 /* servicios */
-.tituloServicios {
+.tituloCampañas {
   margin: 40px; }
 
 .sectionUno {
@@ -283,7 +283,7 @@ footer {
   margin: bottom 5px;
   margin-top: 25px; }
 
-.footerServicios {
+.footerCampañas {
   background: #042f66;
   background: linear-gradient(180deg, rgba(4, 47, 102, 0.944415) 0%, #1a5ee3 30%);
   display: flex;
@@ -375,7 +375,7 @@ footer {
     display: none; }
   .contactoRss img {
     display: none; }
-  .footerServicios {
+  .footerCampañas {
     display: flex;
     justify-content: center; } }
 
@@ -384,16 +384,16 @@ footer {
 @media only screen and (min-width: 0px) and (max-width: 500px) {
   body {
     background-color: #042f66; }
-  .footerServicios {
+  .footerCampañas {
     display: flex;
     justify-content: space-around; }
-  .footerServicios p {
+  .footerCampañas p {
     font-size: 12px; }
   .logoImagen img {
     width: 500px; }
   .parallax3 {
     display: none; }
-  .tituloServicios h1 {
+  .tituloCampañas h1 {
     font-size: 18px; }
   .textoTres {
     display: flex;
@@ -455,7 +455,7 @@ footer {
   margin: bottom 5px;
   margin-top: 80px; }
 
-.footerProductos {
+.footerServicios {
   background: #042f66;
   background: linear-gradient(180deg, rgba(4, 47, 102, 0.944415) 0%, #1a5ee3 30%);
   display: flex;
@@ -537,10 +537,10 @@ footer {
 @media only screen and (min-width: 0px) and (max-width: 500px) {
   body {
     background-color: #042f66; }
-  .footerProductos {
+  .footerServicios {
     display: flex;
     justify-content: space-around; }
-    .footerProductos img {
+    .footerServicios img {
       display: flex;
       justify-content: space-around;
       width: 20px; }
@@ -571,7 +571,7 @@ footer {
 
 /* cierre vista movil productos */
 /* ubicacion */
-.tituloUbicacion {
+.tituloClientes {
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -600,7 +600,7 @@ footer {
 .caruselclientes {
   margin-top: 35px; }
 
-.footerUbicacion {
+.footerClientes {
   background: #042f66;
   background: linear-gradient(180deg, rgba(4, 47, 102, 0.944415) 0%, #1a5ee3 30%);
   display: flex;
@@ -674,17 +674,11 @@ a {
     font-size: 15px; }
   h1 {
     font-size: 18px; }
-  .tituloUbicacion p {
+  .tituloClientes p {
     display: flex;
     color: #c1cad0;
     text-align: center; }
-  .mapa iframe {
-    display: flex;
-    justify-content: center;
-    width: 350px;
-    align-items: center;
-    margin-top: 20px; }
-  .footerUbicacion {
+  .footerClientes {
     display: flex;
     justify-content: center;
     padding: 50px; }
@@ -700,34 +694,31 @@ a {
 /* cierre vista tablet */
 /* inicio movil */
 @media only screen and (min-width: 0px) and (max-width: 500px) {
-  .contenedorUbicacion {
+  .contenedorClientes {
     display: grid;
     grid-template-areas: "head" "header" "main" "footer";
     grid-template-columns: 100%;
     grid-template-rows: 1fr auto auto auto; }
-  .headUbicacion {
+  .headClientes {
     grid-area: head; }
   header {
     grid-area: header; }
   main {
     grid-area: main; }
-  .footerUbicacion {
+  .footerClientes {
     grid-area: footer; }
-  .tituloUbicacion {
+  .tituloClientes {
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-size: 10px; }
   .titulofooter p {
     font-size: 5px; }
-  .mapa {
-    width: 280px;
-    align-items: center; }
   .logoImagen img {
     width: auto; }
   .parallax6 {
     display: none; }
-  .footerUbicacion {
+  .footerClientes {
     margin-top: 120px; }
   .instagramRSS img {
     display: none; }
@@ -742,13 +733,17 @@ a {
 .tituloContacto {
   display: flex;
   justify-content: center;
-  margin: 50px; }
+  margin: 50px;
+  text-align: center; }
 
 .logoImagen {
   margin: auto; }
 
 .tituloContacto p {
   color: #c1cad0; }
+
+.mapa {
+  margin-left: 20px; }
 
 .seccionContacto {
   display: flex;
