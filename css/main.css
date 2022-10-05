@@ -831,7 +831,7 @@ a {
       list-style-type: none;
       margin-top: 40px; }
   .mapa {
-    width: 50%; }
+    display: none; }
   .tituloContacto p {
     font-size: 15px; }
   .parallax5 {
