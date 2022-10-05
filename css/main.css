@@ -224,6 +224,9 @@ footer {
 
 /* cierre de vista movil */
 /* campañas */
+.contenedorCampañas {
+  background-color: #042f66; }
+
 .tituloCampañas {
   margin: 40px; }
 
@@ -432,6 +435,9 @@ footer {
     display: none; } }
 
 /* Servicios */
+.contenedorServicios {
+  background-color: #042f66; }
+
 .card {
   margin-top: 50px; }
 
@@ -562,6 +568,9 @@ footer {
 
 /* cierre vista movil */
 /* clientes */
+.contenedorClientes {
+  background-color: #042f66; }
+
 .tituloClientes {
   display: flex;
   justify-content: center;
@@ -725,6 +734,9 @@ a {
     display: none; } }
 
 /* inicio contacto */
+.contenedorContacto {
+  background-color: #042f66; }
+
 .tituloContacto {
   display: flex;
   justify-content: center;
