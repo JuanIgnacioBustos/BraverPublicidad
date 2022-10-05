@@ -1,6 +1,6 @@
 
 
-/* Productos */
+/* Servicios */
 
 .card {
     margin-top: 50px;
@@ -96,8 +96,8 @@
 
 
 
-/* cierre productos */
-/* inicio vista tablet productos */
+/* cierre */
+/* inicio vista tablet */
 
 
 @media only screen and (min-width: 752px) and (max-width:1023px){
@@ -151,37 +151,19 @@ body{
 .footerServicios {
     display: flex; 
     justify-content: space-around;
-    img {
-    display: flex;
-    justify-content: space-around;
-    width: 20px;
-    }
+    margin-top: 45px;
+}
+
+.footerServicios p {
+    font-size: 12px;
 }
 
 .logoImagen img{
-    width: 500px;
+    width: auto;
 }
 
 .parallax4 {
     display: none;
-}
-
-.textoSeis{
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-.textoSiete{
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-.textoOcho{
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
 }
 
 .instagramRSS img{
@@ -200,4 +182,4 @@ body{
     display: none;
 }
 
-}/* cierre vista movil productos */
+}/* cierre vista movil */

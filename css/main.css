@@ -60,18 +60,6 @@ footer {
   color: #c1cad0;
   padding: 40px; }
 
-.textoSeis {
-  color: #c1cad0;
-  text-align: center; }
-
-.textoSiete {
-  color: #c1cad0;
-  text-align: center; }
-
-.textoOcho {
-  color: #c1cad0;
-  text-align: center; }
-
 .footerIndex {
   background: #042f66;
   background: linear-gradient(180deg, rgba(4, 47, 102, 0.944415) 0%, #1a5ee3 30%);
@@ -196,7 +184,8 @@ footer {
   .textoUno {
     display: flex;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: center;
+    font-size: 12px; }
   .logoImagen img {
     width: 500px; }
   .cotizacionIndex img {
@@ -204,7 +193,9 @@ footer {
   .footerIndex {
     display: flex;
     justify-content: center;
-    margin-top: 70px; }
+    margin-top: 20px; }
+  .footerIndex p {
+    font-size: 10px; }
   .instagramRSS img {
     display: none; }
   .facebookRss img {
@@ -220,7 +211,7 @@ footer {
     margin: 50px; } }
 
 /* cierre de vista movil */
-/* servicios */
+/* campañas */
 .tituloCampañas {
   margin: 40px; }
 
@@ -338,8 +329,8 @@ footer {
 .navbar-nav .nav-link.active .navbar-nav .show > .nav-link {
   color: #042f66; }
 
-/* cierre servicios */
-/* vista tablet servicios */
+/* cierre */
+/* vista tablet  */
 @media only screen and (min-width: 766px) and (max-width: 1023px) {
   body {
     background-color: #042f66; }
@@ -428,7 +419,7 @@ footer {
   .contactoRss img {
     display: none; } }
 
-/* Productos */
+/* Servicios */
 .card {
   margin-top: 50px; }
 
@@ -511,8 +502,8 @@ footer {
 .navbar-nav .nav-link.active .navbar-nav .show > .nav-link {
   color: #042f66; }
 
-/* cierre productos */
-/* inicio vista tablet productos */
+/* cierre */
+/* inicio vista tablet */
 @media only screen and (min-width: 752px) and (max-width: 1023px) {
   body {
     background-color: #042f66; }
@@ -540,27 +531,14 @@ footer {
     background-color: #042f66; }
   .footerServicios {
     display: flex;
-    justify-content: space-around; }
-    .footerServicios img {
-      display: flex;
-      justify-content: space-around;
-      width: 20px; }
+    justify-content: space-around;
+    margin-top: 45px; }
+  .footerServicios p {
+    font-size: 12px; }
   .logoImagen img {
-    width: 500px; }
+    width: auto; }
   .parallax4 {
     display: none; }
-  .textoSeis {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center; }
-  .textoSiete {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center; }
-  .textoOcho {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center; }
   .instagramRSS img {
     display: none; }
   .facebookRss img {
@@ -570,8 +548,8 @@ footer {
   .contactoRss img {
     display: none; } }
 
-/* cierre vista movil productos */
-/* ubicacion */
+/* cierre vista movil */
+/* clientes */
 .tituloClientes {
   display: flex;
   justify-content: center;
@@ -663,7 +641,7 @@ a {
 .navbar-nav .nav-link.active .navbar-nav .show > .nav-link {
   color: #042f66; }
 
-/* vista tablet ubicacion */
+/* vista tablet */
 @media only screen and (min-width: 740px) and (max-width: 1023px) {
   body {
     background-color: #042f66; }
@@ -671,14 +649,15 @@ a {
     width: 740px; }
   .parallax6 {
     display: none; }
-  p {
+  .card-text {
     font-size: 15px; }
-  h1 {
-    font-size: 18px; }
   .tituloClientes p {
     display: flex;
     color: #c1cad0;
     text-align: center; }
+  .card-title1 {
+    color: #c1cad0;
+    font-size: 18px; }
   .footerClientes {
     display: flex;
     justify-content: center;
@@ -713,14 +692,14 @@ a {
     flex-direction: column;
     justify-content: center;
     font-size: 10px; }
-  .titulofooter p {
-    font-size: 5px; }
+  .footerClientes p {
+    font-size: 12px; }
   .logoImagen img {
     width: auto; }
   .parallax6 {
     display: none; }
   .footerClientes {
-    margin-top: 120px; }
+    margin-top: 80px; }
   .instagramRSS img {
     display: none; }
   .facebookRss img {
@@ -839,6 +818,8 @@ a {
       padding: 30px;
       list-style-type: none;
       margin-top: 40px; }
+  .mapa {
+    width: 50%; }
   .tituloContacto p {
     font-size: 15px; }
   .parallax5 {
@@ -878,6 +859,8 @@ a {
   .logoImagen img {
     width: 500px; }
   .parallax5 {
+    display: none; }
+  .mapa {
     display: none; }
   .footerContacto {
     display: flex;

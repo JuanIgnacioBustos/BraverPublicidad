@@ -1,6 +1,6 @@
 
 
-/* ubicacion */
+/* clientes */
 
 .tituloClientes {
     display: flex;
@@ -100,7 +100,7 @@ a {
     }
 }
 
-/* vista tablet ubicacion */
+/* vista tablet */
 
 @media only screen and (min-width: 740px) and (max-width:1023px){
 
@@ -116,19 +116,20 @@ body {
     display: none;
 }
 
-p {
+.card-text {
     font-size: 15px;
-}
-
-h1 {
-    font-size: 18px;
 }
 
 .tituloClientes p {
     display: flex;
-    color:#c1cad0 ;
-    text-align: center;;
+    color:#c1cad0;
+    text-align: center;
 }    
+
+.card-title1{
+    color: #c1cad0;
+    font-size: 18px;
+}
 
 .footerClientes {
     display: flex;
@@ -192,8 +193,8 @@ main {
     font-size: 10px;
 }
 
-.titulofooter p {
-    font-size: 5px;
+.footerClientes p {
+    font-size: 12px;
 }
 
 .logoImagen img {
@@ -205,7 +206,7 @@ main {
 }
 
 .footerClientes {
-    margin-top: 120px;
+    margin-top: 80px;
 }
 
 .instagramRSS img {
