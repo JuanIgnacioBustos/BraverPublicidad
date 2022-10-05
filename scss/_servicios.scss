@@ -1,68 +1,32 @@
-/* servicios */
-.tituloServicios {
-    margin: 40px;
+
+
+/* Servicios */
+
+.card {
+    margin-top: 50px;
 }
 
-.sectionUno {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    margin: 50px;
+.card-text p{
+    color: $blanco;
 }
 
-.sectionDos{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+.card-body {
+    background: $azulclaro;
+    background: $gradientemenu;
 }
 
-.sectionTres {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+.card-title {
+    color: $blanco;
 }
 
-.textoTres {
-    display: flex;
-    flex-direction: column;  
-    color: #c1cad0 ;
-    text-align: left;
-    padding: 75px;
+
+.btn-primary{
+    color: $azul;
 }
 
-.textoCuatro {
-    display: flex;
-    flex-direction: column;
-    color:#c1cad0 ;
-    text-align: center;
-    padding: 50px;
-}
-
-.textoCinco {
-    display: flex;
-    flex-direction: column;
-    color: #c1cad0 ;
-    text-align: left;
-    padding: 95px;
-}
-
-.campañaUno {
-    display: flex;
-    justify-content: right;
-}
-
-.campañaTres {
-    display: flex;
-    justify-content: right;
-    padding: 15px;
-}
-
-.logoImagen{
-    margin: auto;
-}
-
-.parallax3 {    background-image: url("../multimedia/parallaxservicios1.jpg");
+.parallax4 {    background-image: url("../multimedia/parallaxproductos1.jpg");
     @include estiloparallax;
+    margin-top: 80px;
 }
 
 .footerServicios {
@@ -73,6 +37,7 @@
     justify-content: map-get($estilosfooter , posicion);}
     .titulofooter p{
     color: $blanco;
+    padding: 15px;
     @include estilofooter;
 }
 
@@ -82,7 +47,7 @@
 }
 
 .facebookRss img{
-    @include imagenesfooter;
+    @include imagenesfooter; 
 }
 
 .whatsappRss img{
@@ -96,7 +61,8 @@
 
 .bg-lav{
     background: $azulclaro;
-    background: $gradientemenu}
+    background: $gradientemenu
+}
 
 .btn-primary{
     background-color: $blanco;
@@ -128,52 +94,20 @@
     }
 }
 
-/* cierre servicios */
 
-/* vista tablet servicios */
 
-@media only screen and (min-width: 766px) and (max-width:1023px){
+/* cierre */
+/* inicio vista tablet */
+
+
+@media only screen and (min-width: 752px) and (max-width:1023px){
 
 body {
     background-color: #042f66;
 }
 
-
-
-.parallax3 {
+.parallax4 {
     display: none;
-}
-
-.textoTres {
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    color: #c1cad0 ;
-    font-size: 15px;
-}
-
-.textoCuatro {
-    display: none;
-}    
-
-.textoCinco {
-    display: flex;
-    flex-wrap: wrap;
-    color: #c1cad0 ;
-    text-align: left;
-    font-size: 10px;
-}
-
-.campañaUno iframe{
-    display: none;
-}
-
-.campañaTress{
-    display: none;
-}
-
-.campañaTres iframe{
-    width: 400px;
 }
 
 .logoImagen img{
@@ -199,9 +133,12 @@ body {
 .footerServicios {
     display: flex; 
     justify-content: center;
+    margin-top: 85px;
 }
 
-}/* cierre vista tablet */
+
+}
+/* cierre vista tablet */
 
 /* inicio movil */
 
@@ -214,6 +151,7 @@ body{
 .footerServicios {
     display: flex; 
     justify-content: space-around;
+    margin-top: 45px;
 }
 
 .footerServicios p {
@@ -221,54 +159,10 @@ body{
 }
 
 .logoImagen img{
-    width: 500px;
+    width: auto;
 }
 
-.parallax3 {
-    display: none;
-}
-
-.tituloServicios h1{
-    font-size: 18px;
-}
-
-.textoTres {
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 60px;
-}
-
-.textoTres p {
-    font-size: 15px;
-}
-
-.textoCuatro {
-    display: none;
-}
-
-.textoCinco {
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 60px;
-    font-size: 15px;
-}
-
-.textoCinco p {
-    font-size: 15px;
-}
-
-.campañaUno iframe{
-    display: none;
-}
-
-.campañaTres iframe{
-    width: 250px;
-    height: 300px;
-}
-
-.campañaTress {
+.parallax4 {
     display: none;
 }
 
@@ -288,4 +182,4 @@ body{
     display: none;
 }
 
-}
+}/* cierre vista movil */

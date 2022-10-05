@@ -1,33 +1,36 @@
 
 
-/* ubicacion */
+/* clientes */
 
-.tituloUbicacion {
+.tituloClientes {
     display: flex;
     justify-content: center;
     padding: 20px;
     font-size: 20px;
+    text-align: center;
+    margin-top: 35px;
 }
 
 .logoImagen img{
     margin: auto;
-    }
-
-.tituloUbicacion p {
-    color: $blanco
-}
-
-.mapa {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
 }
 
 .parallax6 {    background-image: url("../multimedia/fondoindex.jpg");
     @include estiloparallax;
 }
 
-.footerUbicacion {
+.textoClientes {
+    text-align: center;
+    color:  $blanco;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.caruselclientes {
+    margin-top: 35px;
+}
+
+.footerClientes {
     background: $azulclaro;
     background: $gradientefooter;
     display: map-get($estilosfooter , display);
@@ -37,7 +40,6 @@
     color: $blanco;
     @include estilofooter;
 }
-
 
 .instagramRSS img{
     @include imagenesfooter;
@@ -55,15 +57,22 @@
     @include imagenesfooter;
 }
 
+a {
+    color: #c1cad0;
+    font-size: 18px;
+}
+.card-title1{
+    color: #c1cad0;
+    font-size: 40px;
+}
 
 .bg-lav{
     background: $azulclaro;
     background: $gradientemenu
 }
 
-.btn-primary{
-    background-color: $blanco;
-    border-color: $blanco;
+.btn-primarycl{
+    background-color: white;
     transition: all 0.25s ease-in-out;
 }
 
@@ -91,7 +100,7 @@
     }
 }
 
-/* vista tablet ubicacion */
+/* vista tablet */
 
 @media only screen and (min-width: 740px) and (max-width:1023px){
 
@@ -107,29 +116,22 @@ body {
     display: none;
 }
 
-p {
+.card-text {
     font-size: 15px;
 }
 
-h1 {
+.tituloClientes p {
+    display: flex;
+    color:#c1cad0;
+    text-align: center;
+}    
+
+.card-title1{
+    color: #c1cad0;
     font-size: 18px;
 }
 
-.tituloUbicacion p {
-    display: flex;
-    color:#c1cad0 ;
-    text-align: center;;
-}    
-
-.mapa iframe {
-    display: flex;
-    justify-content: center;
-    width: 350px;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.footerUbicacion {
+.footerClientes {
     display: flex;
     justify-content: center;
     padding: 50px;
@@ -157,7 +159,7 @@ h1 {
 
 @media only screen and (min-width:0px) and (max-width:500px){
 
-.contenedorUbicacion {
+.contenedorClientes {
     display: grid;
     grid-template-areas: 
     "head"
@@ -168,7 +170,7 @@ h1 {
     grid-template-rows: 1fr auto auto auto;
 }
 
-.headUbicacion {
+.headClientes {
     grid-area: head;
 }
 
@@ -180,24 +182,19 @@ main {
     grid-area: main;
 }
 
-.footerUbicacion {
+.footerClientes {
     grid-area: footer;
 }
 
-.tituloUbicacion {
+.tituloClientes {
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-size: 10px;
 }
 
-.titulofooter p {
-    font-size: 5px;
-}
-
-.mapa {
-    width: 280px;
-    align-items: center;
+.footerClientes p {
+    font-size: 12px;
 }
 
 .logoImagen img {
@@ -208,8 +205,8 @@ main {
     display: none;
 }
 
-.footerUbicacion {
-    margin-top: 120px;
+.footerClientes {
+    margin-top: 80px;
 }
 
 .instagramRSS img {
