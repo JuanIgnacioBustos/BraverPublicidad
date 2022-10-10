@@ -880,7 +880,7 @@ a {
   .footerContacto {
     grid-area: footer; }
   .tituloContacto {
-    font-size: 15px;
+    font-size: 12px;
     display: flex;
     flex-direction: column;
     justify-content: center; }
