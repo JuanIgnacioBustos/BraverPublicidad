@@ -67,6 +67,14 @@ footer {
   flex-direction: row;
   justify-content: end; }
 
+.titulofooter p {
+  color: #c1cad0;
+  padding: 5px;
+  margin-top: 15px;
+  list-style-type: none;
+  text-align: left;
+  font-size: 15px; }
+
 .instagramRSS img {
   width: 50px;
   padding: 5px;
@@ -121,7 +129,8 @@ footer {
 /* vista tablet index */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   body {
-    background-color: #042f66; }
+    background-color: #042f66;
+    overflow-x: hidden; }
   .contenedorIndex {
     display: grid;
     grid-template-areas: "nav nav nav" "head head head" "header header header" "main main main" "main main main" "main main main" "footer footer footer";
@@ -171,6 +180,8 @@ footer {
 /* cierre vista tablet */
 /* inicio movil */
 @media only screen and (min-width: 0px) and (max-width: 500px) {
+  body {
+    overflow-x: hidden; }
   .tituloIndex h1 {
     font-size: 15px; }
   .textoUno {
@@ -276,6 +287,14 @@ footer {
   flex-direction: row;
   justify-content: end; }
 
+.titulofooter p {
+  color: #c1cad0;
+  padding: 5px;
+  margin-top: 15px;
+  list-style-type: none;
+  text-align: left;
+  font-size: 15px; }
+
 .instagramRSS img {
   width: 50px;
   padding: 5px;
@@ -320,7 +339,8 @@ footer {
 /* vista tablet  */
 @media only screen and (min-width: 766px) and (max-width: 1023px) {
   body {
-    background-color: #042f66; }
+    background-color: #042f66;
+    overflow-x: hidden; }
   .parallax3 {
     display: none; }
   .textoTres {
@@ -361,7 +381,8 @@ footer {
 /* inicio movil */
 @media only screen and (min-width: 0px) and (max-width: 500px) {
   body {
-    background-color: #042f66; }
+    background-color: #042f66;
+    overflow-x: hidden; }
   .footerCampañas {
     display: flex;
     justify-content: space-around; }
@@ -448,6 +469,14 @@ footer {
   flex-direction: row;
   justify-content: end; }
 
+.titulofooter p {
+  color: #c1cad0;
+  padding: 5px;
+  margin-top: 15px;
+  list-style-type: none;
+  text-align: left;
+  font-size: 15px; }
+
 .instagramRSS img {
   width: 50px;
   padding: 5px;
@@ -479,11 +508,8 @@ footer {
 
 :not(.btn-check) .btn:hover {
   background-color: #c1cad0;
-  border-color: #c1cad0;
+  border-color: #042f66;
   transform: scale(0.9); }
-
-.nav-link {
-  color: #c1cad0; }
 
 .navbar-nav .nav-link.active .navbar-nav .show > .nav-link {
   color: #042f66; }
@@ -492,7 +518,8 @@ footer {
 /* inicio vista tablet */
 @media only screen and (min-width: 752px) and (max-width: 1023px) {
   body {
-    background-color: #042f66; }
+    background-color: #042f66;
+    overflow-x: hidden; }
   .parallax4 {
     display: none; }
   .logoImagen img {
@@ -514,7 +541,8 @@ footer {
 /* inicio movil */
 @media only screen and (min-width: 0px) and (max-width: 500px) {
   body {
-    background-color: #042f66; }
+    background-color: #042f66;
+    overflow-x: hidden; }
   .footerServicios {
     display: flex;
     justify-content: space-around;
@@ -573,7 +601,13 @@ footer {
   justify-content: end; }
 
 .titulofooter {
-  display: none; }
+  color: #c1cad0;
+  padding: 5px;
+  margin-top: 15px;
+  list-style-type: none;
+  text-align: left;
+  font-size: 15px;
+  justify-content: center; }
 
 .instagramRSS img {
   width: 50px;
@@ -636,7 +670,8 @@ footer {
 /* vista tablet */
 @media only screen and (min-width: 740px) and (max-width: 1023px) {
   body {
-    background-color: #042f66; }
+    background-color: #042f66;
+    overflow-x: hidden; }
   .logoImagen {
     width: 740px; }
   .parallax6 {
@@ -666,6 +701,8 @@ footer {
 /* cierre vista tablet */
 /* inicio movil */
 @media only screen and (min-width: 0px) and (max-width: 500px) {
+  body {
+    overflow-x: hidden; }
   .contenedorClientes {
     display: grid;
     grid-template-areas: "head" "header" "main" "footer";
@@ -748,6 +785,13 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: end; }
+  .footerContacto .titulofooter p {
+    color: #c1cad0;
+    padding: 5px;
+    margin-top: 15px;
+    list-style-type: none;
+    text-align: left;
+    font-size: 15px; }
 
 .instagramRSS img {
   width: 50px;
@@ -792,7 +836,8 @@ footer {
 /* inicio tablet contacto */
 @media only screen and (min-width: 766px) and (max-width: 1023px) {
   body {
-    background-color: #042f66; }
+    background-color: #042f66;
+    overflow-x: hidden; }
   .logoImagen img {
     width: 766px; }
   .seccionContacto {
@@ -823,6 +868,8 @@ footer {
 /* cierre vista tablet */
 /* inicio movil */
 @media only screen and (min-width: 0px) and (max-width: 500px) {
+  body {
+    overflow-x: hidden; }
   .contenedorContacto {
     display: grid;
     grid-template-areas: "head" "header" "main" "footer";

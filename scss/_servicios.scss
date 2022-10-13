@@ -43,8 +43,11 @@
     background: $gradientefooter;
     display: map-get($estilosfooter , display);
     flex-direction: map-get($estilosfooter , direccion);
-    justify-content: map-get($estilosfooter , posicion);
-}
+    justify-content: map-get($estilosfooter , posicion);}
+    .titulofooter p {
+        color: $blanco;
+        @include estilofooter;
+    }
 
 
 
@@ -79,13 +82,9 @@
 :not(.btn-check){
 .btn:hover{
     background-color: $blanco;
-    border-color: $blanco;
+    border-color: $azul;
     transform: scale(0.9);
     }
-}
-
-.nav-link{
-    color: $blanco;
 }
 
 .navbar-nav{
@@ -110,6 +109,7 @@
 
 body {
     background-color: #042f66;
+    overflow-x: hidden;
 }
 
 .parallax4 {
@@ -152,6 +152,7 @@ body {
 
 body{
     background-color: #042f66;
+    overflow-x: hidden;
 }
 
 .footerServicios {

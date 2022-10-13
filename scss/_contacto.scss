@@ -51,6 +51,10 @@
     display: map-get($estilosfooter , display);
     flex-direction: map-get($estilosfooter , direccion);
     justify-content: map-get($estilosfooter , posicion);
+    .titulofooter p {
+        color: $blanco;
+        @include estilofooter;
+    }
 }
 
 .instagramRSS img{
@@ -110,6 +114,7 @@
 
 body {
     background-color: #042f66;
+    overflow-x: hidden;
 }
 
 .logoImagen img {
@@ -164,6 +169,10 @@ body {
 /* inicio movil */
 
 @media only screen and (min-width:0px) and (max-width:500px){
+
+body {
+    overflow-x: hidden;
+}
 
 .contenedorContacto {
     display: grid;

@@ -76,8 +76,11 @@
     background: $gradientefooter;
     display: map-get($estilosfooter , display);
     flex-direction: map-get($estilosfooter , direccion);
-    justify-content: map-get($estilosfooter , posicion);
-}
+    justify-content: map-get($estilosfooter , posicion);}
+    .titulofooter p {
+        color: $blanco;
+        @include estilofooter;
+    }
 
 
 
@@ -139,6 +142,7 @@
 
 body {
     background-color: #042f66;
+    overflow-x: hidden;
 }
 
 .parallax3 {
@@ -210,6 +214,7 @@ body {
 
 body{
     background-color: #042f66;
+    overflow-x: hidden;
 }
 
 .footerCampañas {

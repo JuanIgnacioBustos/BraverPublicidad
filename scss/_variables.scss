@@ -18,10 +18,10 @@ $estilosfooter:(
 
 @mixin estilofooter {
     padding: 5px;
-    margin: 5px;
+    margin-top: 15px;
     list-style-type: none;
     text-align: left;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 @mixin estiloparallax {
