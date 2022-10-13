@@ -67,14 +67,6 @@ footer {
   flex-direction: row;
   justify-content: end; }
 
-.titulofooter p {
-  color: #c1cad0;
-  padding: 5px;
-  margin: 5px;
-  list-style-type: none;
-  text-align: left;
-  font-size: 10px; }
-
 .instagramRSS img {
   width: 50px;
   padding: 5px;
@@ -284,14 +276,6 @@ footer {
   flex-direction: row;
   justify-content: end; }
 
-.titulofooter p {
-  color: #c1cad0;
-  padding: 5px;
-  margin: 5px;
-  list-style-type: none;
-  text-align: left;
-  font-size: 10px; }
-
 .instagramRSS img {
   width: 50px;
   padding: 5px;
@@ -427,7 +411,9 @@ footer {
   background-color: #042f66; }
 
 .card {
-  margin-top: 50px; }
+  margin-top: 50px;
+  width: 80%;
+  margin-left: 250px; }
 
 .card-text p {
   color: #c1cad0; }
@@ -438,6 +424,9 @@ footer {
 
 .card-title {
   color: #c1cad0; }
+
+.seccionTres {
+  margin-left: 150px; }
 
 .btn-primary {
   color: #042f66; }
@@ -458,15 +447,6 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: end; }
-
-.titulofooter p {
-  color: #c1cad0;
-  padding: 15px;
-  padding: 5px;
-  margin: 5px;
-  list-style-type: none;
-  text-align: left;
-  font-size: 10px; }
 
 .instagramRSS img {
   width: 50px;
@@ -585,9 +565,6 @@ footer {
   padding: 40px;
   margin-top: 50px; }
 
-.caruselclientes {
-  margin-top: 35px; }
-
 .footerClientes {
   background: #042f66;
   background: linear-gradient(180deg, rgba(4, 47, 102, 0.944415) 0%, #1a5ee3 30%);
@@ -595,13 +572,8 @@ footer {
   flex-direction: row;
   justify-content: end; }
 
-.titulofooter p {
-  color: #c1cad0;
-  padding: 5px;
-  margin: 5px;
-  list-style-type: none;
-  text-align: left;
-  font-size: 10px; }
+.titulofooter {
+  display: none; }
 
 .instagramRSS img {
   width: 50px;
@@ -623,13 +595,20 @@ footer {
   padding: 5px;
   margin: 5px; }
 
-a {
-  color: #c1cad0;
-  font-size: 18px; }
+.caruselclientes {
+  width: 50%;
+  margin-left: 24%;
+  margin-top: 35px; }
+
+.cardsclientes {
+  margin-left: 200px; }
 
 .card-title1 {
   color: #c1cad0;
   font-size: 40px; }
+
+.card-footer a {
+  color: #c1cad0; }
 
 .bg-lav {
   background: #042f66;
@@ -769,14 +748,6 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: end; }
-
-.titulofooter p {
-  color: #c1cad0;
-  padding: 5px;
-  margin: 5px;
-  list-style-type: none;
-  text-align: left;
-  font-size: 10px; }
 
 .instagramRSS img {
   width: 50px;

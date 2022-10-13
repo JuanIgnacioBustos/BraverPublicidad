@@ -86,11 +86,9 @@ footer {
     background: $gradientefooter;
     display: map-get($estilosfooter , display);
     flex-direction: map-get($estilosfooter , direccion);
-    justify-content: map-get($estilosfooter , posicion);}
-    .titulofooter p {
-    color: $blanco;
-    @include estilofooter;
+    justify-content: map-get($estilosfooter , posicion);
 }
+
 
 .instagramRSS img{
     @include imagenesfooter;
