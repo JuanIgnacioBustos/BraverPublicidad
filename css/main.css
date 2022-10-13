@@ -497,12 +497,6 @@ footer {
   padding: 5px;
   margin: 5px; }
 
-.seccionTres {
-  margin: auto; }
-
-.card {
-  margin: auto; }
-
 .bg-lav {
   background: #042f66;
   background: linear-gradient(0deg, rgba(4, 47, 102, 0.944415) 0%, #1a5ee3 30%); }
@@ -541,7 +535,13 @@ footer {
   .footerServicios {
     display: flex;
     justify-content: center;
-    margin-top: 85px; } }
+    margin-top: 85px; }
+  .seccionTres {
+    margin: auto;
+    margin-top: 15px; }
+  .card {
+    margin: auto;
+    margin-top: 15px; } }
 
 /* cierre vista tablet */
 /* inicio movil */
@@ -549,6 +549,12 @@ footer {
   body {
     background-color: #042f66;
     overflow-x: hidden; }
+  .seccionTres {
+    margin: auto;
+    margin-top: 15px; }
+  .card {
+    margin: auto;
+    margin-top: 15px; }
   .footerServicios {
     display: flex;
     justify-content: space-around;
@@ -714,7 +720,8 @@ footer {
   .cardsclientes {
     margin: auto; }
   .caruselclientes {
-    margin: auto; }
+    margin: auto;
+    margin-top: 15px; }
   .contenedorClientes {
     display: grid;
     grid-template-areas: "head" "header" "main" "footer";

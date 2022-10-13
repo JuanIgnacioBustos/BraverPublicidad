@@ -67,14 +67,6 @@
     @include imagenesfooter;
 }
 
-.seccionTres {
-    margin: auto;
-}
-
-.card {
-    margin: auto;
-}
-
 .bg-lav{
     background: $azulclaro;
     background: $gradientemenu
@@ -149,6 +141,16 @@ body {
     margin-top: 85px;
 }
 
+.seccionTres {
+    margin: auto;
+    margin-top: 15px;
+}
+
+.card {
+    margin: auto;
+    margin-top: 15px;
+}
+
 
 }
 /* cierre vista tablet */
@@ -160,6 +162,16 @@ body {
 body{
     background-color: #042f66;
     overflow-x: hidden;
+}
+
+.seccionTres {
+    margin: auto;
+    margin-top: 15px;
+}
+
+.card {
+    margin: auto;
+    margin-top: 15px;
 }
 
 .footerServicios {
