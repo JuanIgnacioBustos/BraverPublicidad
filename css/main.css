@@ -497,6 +497,12 @@ footer {
   padding: 5px;
   margin: 5px; }
 
+.seccionTres {
+  margin: auto; }
+
+.card {
+  margin: auto; }
+
 .bg-lav {
   background: #042f66;
   background: linear-gradient(0deg, rgba(4, 47, 102, 0.944415) 0%, #1a5ee3 30%); }
@@ -672,8 +678,10 @@ footer {
   body {
     background-color: #042f66;
     overflow-x: hidden; }
-  .logoImagen {
-    width: 740px; }
+  .cardsclientes {
+    margin: auto; }
+  .caruselclientes {
+    margin: auto; }
   .parallax6 {
     display: none; }
   .card-text {
@@ -703,6 +711,10 @@ footer {
 @media only screen and (min-width: 0px) and (max-width: 500px) {
   body {
     overflow-x: hidden; }
+  .cardsclientes {
+    margin: auto; }
+  .caruselclientes {
+    margin: auto; }
   .contenedorClientes {
     display: grid;
     grid-template-areas: "head" "header" "main" "footer";
