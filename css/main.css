@@ -650,6 +650,10 @@ a {
 .navbar-nav .nav-link.active .navbar-nav .show > .nav-link {
   color: #042f66; }
 
+.logoImagen {
+  display: flex;
+  justify-content: center; }
+
 /* vista tablet */
 @media only screen and (min-width: 740px) and (max-width: 1023px) {
   body {
