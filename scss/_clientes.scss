@@ -114,7 +114,6 @@
 .logoImagen {
     display: flex;
     justify-content: center;
-    
 }
 
 /* vista tablet */
@@ -126,8 +125,12 @@ body {
     overflow-x: hidden;
 }
 
-.logoImagen{
-    width: 740px;
+.cardsclientes {
+    margin: auto;
+}
+
+.caruselclientes{
+    margin: auto;
 }
 
 .parallax6 {
@@ -179,6 +182,14 @@ body {
 
 body {
     overflow-x: hidden;
+}
+
+.cardsclientes {
+    margin: auto;
+}
+
+.caruselclientes{
+    margin: auto;
 }
 
 .contenedorClientes {
