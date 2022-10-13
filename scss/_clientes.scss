@@ -30,20 +30,17 @@
     margin-top: 50px;
 }
 
-.caruselclientes {
-    margin-top: 35px;
-}
-
 .footerClientes {
     background: $azulclaro;
     background: $gradientefooter;
     display: map-get($estilosfooter , display);
     flex-direction: map-get($estilosfooter , direccion);
     justify-content: map-get($estilosfooter , posicion);}
-    .titulofooter p {
+    .titulofooter {
     color: $blanco;
     @include estilofooter;
-}
+    justify-content: center
+    }
 
 .instagramRSS img{
     @include imagenesfooter;
@@ -61,13 +58,23 @@
     @include imagenesfooter;
 }
 
-a {
-    color: #c1cad0;
-    font-size: 18px;
+.caruselclientes {
+    width: 50%;
+    margin-left: 24%;
+    margin-top: 35px;
 }
+
+.cardsclientes {
+    margin-left: 200px;
+}
+
 .card-title1{
     color: #c1cad0;
     font-size: 40px;
+}
+
+.card-footer a {
+    color: #c1cad0;
 }
 
 .bg-lav{
@@ -104,12 +111,19 @@ a {
     }
 }
 
+.logoImagen {
+    display: flex;
+    justify-content: center;
+    
+}
+
 /* vista tablet */
 
 @media only screen and (min-width: 740px) and (max-width:1023px){
 
 body {
     background-color: #042f66;
+    overflow-x: hidden;
 }
 
 .logoImagen{
@@ -162,6 +176,10 @@ body {
 /* inicio movil */
 
 @media only screen and (min-width:0px) and (max-width:500px){
+
+body {
+    overflow-x: hidden;
+}
 
 .contenedorClientes {
     display: grid;

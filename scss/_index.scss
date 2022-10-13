@@ -88,9 +88,9 @@ footer {
     flex-direction: map-get($estilosfooter , direccion);
     justify-content: map-get($estilosfooter , posicion);}
     .titulofooter p {
-    color: $blanco;
-    @include estilofooter;
-}
+        color: $blanco;
+        @include estilofooter;
+    }
 
 .instagramRSS img{
     @include imagenesfooter;
@@ -163,6 +163,7 @@ footer {
 
 body {
     background-color: #042f66;
+    overflow-x: hidden;
 }
 
 .contenedorIndex{
@@ -259,6 +260,10 @@ h1 {
 
 @media only screen and (min-width:0px) and (max-width:500px){
 
+
+body {
+    overflow-x: hidden;
+}
 
 .tituloIndex h1 {
     font-size: 15px;
