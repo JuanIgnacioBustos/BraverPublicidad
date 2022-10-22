@@ -46,3 +46,10 @@ Descripción: mediante la etiqueta meta name description, agregué el siguiente 
 Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "publicidad, medios, propaganda, carteleria, afiches, vinilos, lonas, campañas, comunicacion, carteles, grafica, imprenta"
 
 Encabezado: para el encabezado del titulo utilicé el texto “Servicios Publicitarios” con el fin de darle originalidad y pertenencia al sitio.
+
+
+13/10
+
+Actualizacion
+
+Diseño de imagenes , estructura , compilacion en sass , correccion en media queries , identacion.
