@@ -13,10 +13,6 @@
     text-align: center;
 }
 
-.logoImagen{
-    margin: auto;
-}
-
 .tituloContacto p {
     color: $blanco
 }
@@ -73,7 +69,6 @@
     @include imagenesfooter;
 }
 
-
 .bg-lav{
     background: $azulclaro;
     background: $gradientemenu}
@@ -115,10 +110,6 @@
 body {
     background-color: #042f66;
     overflow-x: hidden;
-}
-
-.logoImagen img {
-    width: 766px;
 }
 
 .seccionContacto {

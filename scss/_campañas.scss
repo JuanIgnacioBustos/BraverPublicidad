@@ -4,8 +4,8 @@
     background-color: #042f66;
 }
 
-.tituloCampañas {
-    margin: 40px;
+.tituloCampanias {
+    margin-top: 15px;
 }
 
 .sectionUno {
@@ -62,10 +62,6 @@
     padding: 15px;
 }
 
-.logoImagen{
-    margin: auto;
-}
-
 .parallax3 {    background-image: url("../multimedia/parallaxservicios1.jpg");
     @include estiloparallax;
     margin-top: 25px;
@@ -80,9 +76,7 @@
     .titulofooter p {
         color: $blanco;
         @include estilofooter;
-    }
-
-
+}
 
 .instagramRSS img{
     @include imagenesfooter;
@@ -143,6 +137,11 @@
 body {
     background-color: #042f66;
     overflow-x: hidden;
+}
+
+.tituloCampanias h1{
+    font-size: 30px;
+    margin-top: 15px;
 }
 
 .parallax3 {
@@ -216,23 +215,22 @@ body{
 .footerCampañas {
     display: flex; 
     justify-content: space-around;
-}
-
-.footerCampañas p {
+    p {
     font-size: 12px;
+    }
 }
 
 .parallax3 {
     display: none;
 }
 
-.tituloCampañas h1{
+.tituloCampanias {
     font-size: 18px;
+    margin-top: 15px;
 }
 
 .textoTres {
     display: flex; 
-    flex-direction: column;
     justify-content: center;
     margin-left: 60px;
     font-size: 15px;
@@ -243,11 +241,7 @@ body{
 }
 
 .textoCinco {
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 60px;
-    font-size: 15px;
+    display: none;
 }
 
 .campañaUno iframe{
@@ -259,8 +253,9 @@ body{
     height: 300px;
 }
 
-.campañaTress {
-    display: none;
+.campañaTress iframe{
+    width: 250px;
+    height: 300px;
 }
 
 .instagramRSS img{
