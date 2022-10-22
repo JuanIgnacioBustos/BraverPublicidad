@@ -15,10 +15,6 @@
     margin-top: 35px;
 }
 
-.logoImagen img{
-    margin: auto;
-}
-
 .parallax6 {    background-image: url("../multimedia/fondoindex.jpg");
     @include estiloparallax;
 }
@@ -126,13 +122,21 @@ body {
 }
 
 .cardsclientes {
+<<<<<<< HEAD
     margin: auto;
     margin-top: 15px;
+=======
+    margin-left: 100px;
+>>>>>>> segundaentregaproyecto
 }
 
 .caruselclientes{
     margin: auto;
+<<<<<<< HEAD
     margin-top: 15px;
+=======
+    width: auto;
+>>>>>>> segundaentregaproyecto
 }
 
 .parallax6 {
@@ -140,18 +144,19 @@ body {
 }
 
 .card-text {
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .tituloClientes p {
     display: flex;
     color:#c1cad0;
     text-align: center;
+    font-size: 18px;
 }    
 
 .card-title1{
     color: #c1cad0;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .footerClientes {
@@ -191,9 +196,18 @@ body {
     margin-top: 15px;
 }
 
+.card-title1{
+    font-size: 15px;
+}
+
+.card-text {
+    font-size: 12px;
+}
+
 .caruselclientes{
-    margin: auto;
     margin-top: 15px;
+    margin: auto;
+    width: auto;
 }
 
 .contenedorClientes {
@@ -228,7 +242,7 @@ main {
     flex-direction: column;
     justify-content: center;
     p {
-    font-size: 10px;
+    font-size: 15px;
     }
 }
 
@@ -237,6 +251,8 @@ main {
 }
 
 .footerClientes {
+    display: flex; 
+    justify-content: space-around;
     margin-top: 80px;
     p {
     font-size: 12px;

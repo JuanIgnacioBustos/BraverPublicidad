@@ -158,8 +158,6 @@ footer {
     grid-area: main; }
   footer {
     grid-area: footer; }
-  .logoImagen img {
-    width: 768px; }
   .instagramRSS img {
     display: none; }
   .facebookRss img {
@@ -228,8 +226,8 @@ footer {
 .contenedorCampañas {
   background-color: #042f66; }
 
-.tituloCampañas {
-  margin: 40px; }
+.tituloCampanias {
+  margin-top: 15px; }
 
 .sectionUno {
   display: flex;
@@ -276,9 +274,6 @@ footer {
   display: flex;
   justify-content: right;
   padding: 15px; }
-
-.logoImagen {
-  margin: auto; }
 
 .parallax3 {
   background-image: url("../multimedia/parallaxservicios1.jpg");
@@ -351,6 +346,9 @@ footer {
   body {
     background-color: #042f66;
     overflow-x: hidden; }
+  .tituloCampanias h1 {
+    font-size: 30px;
+    margin-top: 15px; }
   .parallax3 {
     display: none; }
   .textoTres {
@@ -394,33 +392,30 @@ footer {
   .footerCampañas {
     display: flex;
     justify-content: space-around; }
-  .footerCampañas p {
-    font-size: 12px; }
+    .footerCampañas p {
+      font-size: 12px; }
   .parallax3 {
     display: none; }
-  .tituloCampañas h1 {
-    font-size: 18px; }
+  .tituloCampanias {
+    font-size: 18px;
+    margin-top: 15px; }
   .textoTres {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     margin-left: 60px;
     font-size: 15px; }
   .textoCuatro {
     display: none; }
   .textoCinco {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 60px;
-    font-size: 15px; }
+    display: none; }
   .campañaUno iframe {
     display: none; }
   .campañaTres iframe {
     width: 250px;
     height: 300px; }
-  .campañaTress {
-    display: none; }
+  .campañaTress iframe {
+    width: 250px;
+    height: 300px; }
   .instagramRSS img {
     display: none; }
   .facebookRss img {
@@ -525,8 +520,6 @@ footer {
     overflow-x: hidden; }
   .parallax4 {
     display: none; }
-  .logoImagen img {
-    width: 768px; }
   .instagramRSS img {
     display: none; }
   .facebookRss img {
@@ -543,8 +536,8 @@ footer {
     margin: auto;
     margin-top: 15px; }
   .card {
-    margin: auto;
-    margin-top: 15px; } }
+    margin-top: 15px;
+    margin-left: 100px; } }
 
 /* cierre vista tablet */
 /* inicio movil */
@@ -587,9 +580,6 @@ footer {
   font-size: 20px;
   text-align: center;
   margin-top: 35px; }
-
-.logoImagen img {
-  margin: auto; }
 
 .parallax6 {
   background-image: url("../multimedia/fondoindex.jpg");
@@ -686,20 +676,22 @@ footer {
     background-color: #042f66;
     overflow-x: hidden; }
   .cardsclientes {
-    margin: auto; }
+    margin-left: 100px; }
   .caruselclientes {
-    margin: auto; }
+    margin: auto;
+    width: auto; }
   .parallax6 {
     display: none; }
   .card-text {
-    font-size: 15px; }
+    font-size: 12px; }
   .tituloClientes p {
     display: flex;
     color: #c1cad0;
-    text-align: center; }
+    text-align: center;
+    font-size: 18px; }
   .card-title1 {
     color: #c1cad0;
-    font-size: 18px; }
+    font-size: 15px; }
   .footerClientes {
     display: flex;
     justify-content: center;
@@ -720,9 +712,14 @@ footer {
     overflow-x: hidden; }
   .cardsclientes {
     margin: auto; }
+  .card-title1 {
+    font-size: 15px; }
+  .card-text {
+    font-size: 12px; }
   .caruselclientes {
+    margin-top: 15px;
     margin: auto;
-    margin-top: 15px; }
+    width: auto; }
   .contenedorClientes {
     display: grid;
     grid-template-areas: "head"
@@ -744,10 +741,12 @@ footer {
     flex-direction: column;
     justify-content: center; }
     .tituloClientes p {
-      font-size: 10px; }
+      font-size: 15px; }
   .parallax6 {
     display: none; }
   .footerClientes {
+    display: flex;
+    justify-content: space-around;
     margin-top: 80px; }
     .footerClientes p {
       font-size: 12px; }
@@ -769,9 +768,6 @@ footer {
   justify-content: center;
   margin: 50px;
   text-align: center; }
-
-.logoImagen {
-  margin: auto; }
 
 .tituloContacto p {
   color: #c1cad0; }
@@ -860,8 +856,6 @@ footer {
   body {
     background-color: #042f66;
     overflow-x: hidden; }
-  .logoImagen img {
-    width: 766px; }
   .seccionContacto {
     margin-top: 50px; }
   .footerContacto {

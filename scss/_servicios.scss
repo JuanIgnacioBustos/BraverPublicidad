@@ -47,9 +47,7 @@
     .titulofooter p {
         color: $blanco;
         @include estilofooter;
-    }
-
-
+}
 
 .instagramRSS img{
     @include imagenesfooter;
@@ -115,10 +113,6 @@ body {
     display: none;
 }
 
-.logoImagen img{
-    width: 768px;
-}
-
 .instagramRSS img{
     display: none;
 }
@@ -147,8 +141,8 @@ body {
 }
 
 .card {
-    margin: auto;
     margin-top: 15px;
+    margin-left: 100px;
 }
 
 
