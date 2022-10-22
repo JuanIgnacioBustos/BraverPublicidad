@@ -201,16 +201,14 @@ footer {
     flex-direction: column;
     justify-content: center;
     font-size: 12px; }
-  .logoImagen img {
-    width: 500px; }
   .cotizacionIndex img {
     display: none; }
   .footerIndex {
     display: flex;
     justify-content: center;
     margin-top: 20px; }
-  .footerIndex p {
-    font-size: 10px; }
+    .footerIndex p {
+      font-size: 10px; }
   .instagramRSS img {
     display: none; }
   .facebookRss img {
@@ -375,8 +373,6 @@ footer {
     display: none; }
   .campañaTres iframe {
     width: 400px; }
-  .logoImagen img {
-    width: 768px; }
   .instagramRSS img {
     display: none; }
   .facebookRss img {
@@ -400,8 +396,6 @@ footer {
     justify-content: space-around; }
   .footerCampañas p {
     font-size: 12px; }
-  .logoImagen img {
-    width: 500px; }
   .parallax3 {
     display: none; }
   .tituloCampañas h1 {
@@ -410,8 +404,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 60px; }
-  .textoTres p {
+    margin-left: 60px;
     font-size: 15px; }
   .textoCuatro {
     display: none; }
@@ -420,8 +413,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     margin-left: 60px;
-    font-size: 15px; }
-  .textoCinco p {
     font-size: 15px; }
   .campañaUno iframe {
     display: none; }
@@ -571,10 +562,8 @@ footer {
     display: flex;
     justify-content: space-around;
     margin-top: 70px; }
-  .footerServicios p {
-    font-size: 12px; }
-  .logoImagen img {
-    width: auto; }
+    .footerServicios p {
+      font-size: 12px; }
   .parallax4 {
     display: none; }
   .instagramRSS img {
@@ -753,16 +742,15 @@ footer {
   .tituloClientes {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    font-size: 10px; }
-  .footerClientes p {
-    font-size: 12px; }
-  .logoImagen img {
-    width: auto; }
+    justify-content: center; }
+    .tituloClientes p {
+      font-size: 10px; }
   .parallax6 {
     display: none; }
   .footerClientes {
     margin-top: 80px; }
+    .footerClientes p {
+      font-size: 12px; }
   .instagramRSS img {
     display: none; }
   .facebookRss img {
@@ -927,8 +915,6 @@ footer {
     justify-content: center; }
   .tituloContacto p {
     font-size: 15px; }
-  .logoImagen img {
-    width: 500px; }
   .parallax5 {
     display: none; }
   .mapa {
