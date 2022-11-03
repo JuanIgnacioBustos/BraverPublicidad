@@ -10,23 +10,21 @@ html {
   font-size: 62,5%; }
 
 body {
-  background-color: #042f66; }
+  background-color: #042f66;
+  font-family: 'Oswald', sans-serif; }
 
 p {
-  font-family: 'Oswald', sans-serif;
   font-size: 25px;
   color: #c1cad0; }
 
-h1 {
+.tituloIndex {
   color: #c1cad0;
   text-align: center;
   font-weight: bold;
-  font-size: 50px;
-  font-family: 'Oswald', sans-serif; }
+  font-size: 50px; }
 
-header {
-  position: sticky;
-  top: 0; }
+main {
+  padding-top: 1rem; }
 
 .contenedorIndex {
   display: grid;
@@ -100,6 +98,10 @@ footer {
   width: 50px;
   padding: 5px;
   margin: 5px; }
+
+.caruselIndex {
+  width: 85%;
+  margin-left: 7.5%; }
 
 .cotizacionIndex img {
   width: 500px;
@@ -192,7 +194,7 @@ footer {
 @media only screen and (min-width: 0px) and (max-width: 500px) {
   body {
     overflow-x: hidden; }
-  .tituloIndex h1 {
+  .tituloIndex {
     font-size: 15px; }
   .textoUno {
     display: flex;
@@ -346,7 +348,7 @@ footer {
   body {
     background-color: #042f66;
     overflow-x: hidden; }
-  .tituloCampanias h1 {
+  .tituloCampanias {
     font-size: 30px;
     margin-top: 15px; }
   .parallax3 {
