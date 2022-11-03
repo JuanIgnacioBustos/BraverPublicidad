@@ -11,7 +11,8 @@ html {
 
 body {
   background-color: #042f66;
-  font-family: 'Oswald', sans-serif; }
+  font-family: 'Oswald', sans-serif;
+  overflow-x: hidden; }
 
 p {
   font-size: 25px;
